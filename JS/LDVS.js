@@ -16,15 +16,11 @@ function LDVS(data) {
 
     image[row] = content;
 
-    const temp = findMinMaxValues();
-    //console.log("Min Value:", temp.minValue);
-    //console.log("Max Value:", temp.maxValue);
+    const min_max = findMinMaxValues();
 
-    // Generate images with different names
-    //imageCount = (imageCount +1)%40 
     imageCount = row%2
-    //generateImage(temp.minValue, temp.maxValue, colors, "output"+ imageCount +".png");
-    generateImage(temp.minValue, temp.maxValue, colors, "output"+ imageCount +".png");
+    //generateImage(min_max.minValue, min_max.maxValue, colors, "output"+ imageCount +".png");
+    generateImage(min_max.minValue, min_max.maxValue, colors, "output"+ imageCount +".png");
 }
 
 const findMinMaxValues = () => {
