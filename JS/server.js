@@ -1,7 +1,6 @@
 const http = require('http');
 const { LDVS } = require("./LDVS.js");
 
-
 let count = 0;
 
 // Create an HTTP server
@@ -19,9 +18,6 @@ const server = http.createServer((req, res) => {
                 break;
         }
     }
-
-
-
     //console.log(res);
 });
 
@@ -31,7 +27,7 @@ server.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}/`);
 });
 
-const rates = () => {   //In the spam of one second, how many request did we get
+const rates = () => {   //In the span of one second, how many request did we get
     console.log("Incoming Data Rate: " + count +"/s")
     count = 0;
 }
