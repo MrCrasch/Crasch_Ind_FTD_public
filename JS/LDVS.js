@@ -3,14 +3,14 @@ const Jimp = require("jimp");
 const rows = 20;
 const cols = 29;
 const defaultValue = 5500;
-const scale = 10; // Scale factor for image size
+const scale = 11; // Scale factor for image size
 
 let count = 0;
 let imageCount = 0;
 
 let image = Array.from({ length: rows }, () => Array(cols).fill(defaultValue));
 
-function LDVS(data) {
+function LDVS(data, callback) {
     const id = data[3];
     const colors = JSON.parse(data[4]);
     const row = parseInt(data[5], 10);
@@ -21,7 +21,7 @@ function LDVS(data) {
     const min_max = findMinMaxValues();
 
     imageCount = row % 2;
-    generateImage(min_max.minValue, min_max.maxValue, colors, "output" + imageCount + ".png");
+    generateImage(min_max.minValue, min_max.maxValue, colors, id + "_LDVS_" + imageCount + ".png", callback);
 }
 
 const findMinMaxValues = () => {
@@ -52,12 +52,12 @@ const interpolateColor = (color1, color2, factor) => {
     return result;
 };
 
-const generateImage = async (minValue, maxValue, colors, filename) => {
+const generateImage = async (minValue, maxValue, colors, filename, callback) => {
     const [color1, color2] = colors;
 
     const width = cols * scale; // Scale width
     const height = rows * scale; // Scale height
-    const jimpImage = new Jimp(width, height, 0xFFFFFFFF);
+    const jimpImage = new Jimp(width, height, 0xFFFFFFFF); // Initialize with white background
 
     for (let y = 0; y < height; y++) {
         for (let x = 0; x < width; x++) {
@@ -74,7 +74,11 @@ const generateImage = async (minValue, maxValue, colors, filename) => {
         }
     }
 
-    await jimpImage.writeAsync(filename);
+    // Set the first pixel to red
+    //jimpImage.setPixelColor(Jimp.rgbaToInt(255, 0, 0, 255), 0, 0);
+
+    const buffer = await jimpImage.getBufferAsync(Jimp.MIME_PNG);
+    callback(filename, buffer);
     count++;
     // console.log(`Image generated as ${filename}`);
 };
