@@ -85,6 +85,7 @@ const generateImage = async (minValue, maxValue, colors, filename, callback) => 
 
 const rates = () => {
     // In the span of one second, how many requests did we do
+    console.clear()
     console.log("Image Gen Rate: " + count + "/s");
     count = 0;
 }
