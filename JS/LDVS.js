@@ -10,18 +10,22 @@ let imageCount = 0;
 
 let image = Array.from({ length: rows }, () => Array(cols).fill(defaultValue));
 
-function LDVS(data, callback) {
-    const id = data[3];
-    const colors = JSON.parse(data[4]);
-    const row = parseInt(data[5], 10);
-    const content = JSON.parse(data[6]);
+const LDVS = (data) => {
+    return new Promise((resolve, reject) => {
+        const id = data[3];
+        const colors = JSON.parse(data[4]);
+        const row = parseInt(data[5], 10);
+        const content = JSON.parse(data[6]);
 
-    image[row] = content;
+        image[row] = content;
 
-    const min_max = findMinMaxValues();
+        const min_max = findMinMaxValues();
 
-    imageCount = row % 2;
-    generateImage(min_max.minValue, min_max.maxValue, colors, id + "_LDVS_" + imageCount + ".png", callback);
+        imageCount = row % 2;
+        generateImage(min_max.minValue, min_max.maxValue, colors, id + "_LDVS_" + imageCount + ".png")
+            .then(buffer => resolve({ filename: id + "_LDVS_" + imageCount + ".png", buffer }))
+            .catch(err => reject(err));
+    });
 }
 
 const findMinMaxValues = () => {
@@ -52,7 +56,7 @@ const interpolateColor = (color1, color2, factor) => {
     return result;
 };
 
-const generateImage = async (minValue, maxValue, colors, filename, callback) => {
+const generateImage = async (minValue, maxValue, colors, filename) => {
     const [color1, color2] = colors;
 
     const width = cols * scale; // Scale width
@@ -78,9 +82,9 @@ const generateImage = async (minValue, maxValue, colors, filename, callback) => 
     //jimpImage.setPixelColor(Jimp.rgbaToInt(255, 0, 0, 255), 0, 0);
 
     const buffer = await jimpImage.getBufferAsync(Jimp.MIME_PNG);
-    callback(filename, buffer);
     count++;
     // console.log(`Image generated as ${filename}`);
+    return buffer;
 };
 
 const rates = () => {
