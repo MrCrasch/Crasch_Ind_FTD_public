@@ -61,7 +61,7 @@ const generateImage = async (minValue, maxValue, colors, filename) => {
 
     const width = cols * scale; // Scale width
     const height = rows * scale; // Scale height
-    const jimpImage = new Jimp(width, height, 0xFFFFFFFF); // Initialize with white background
+    const jimpImage = new Jimp(width, height, 0xFFFFFFFF); // Initialize with background
 
     for (let y = 0; y < height; y++) {
         for (let x = 0; x < width; x++) {
@@ -89,7 +89,7 @@ const generateImage = async (minValue, maxValue, colors, filename) => {
 
 const rates = () => {
     // In the span of one second, how many requests did we do
-    console.clear()
+    //console.clear()
     console.log("Image Gen Rate: " + count + "/s");
     count = 0;
 }

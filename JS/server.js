@@ -1,9 +1,8 @@
 const http = require('http');
 const { LDVS } = require("./LDVS.js");
-const url = require('url');
 const { pong } = require("./pong.js");
+const url = require('url');
 
-//const { desktopRun } = require('./desktop.js');
 
 
 const PORT = 3001;
@@ -17,6 +16,7 @@ const server = http.createServer(async (req, res) => {
 
     if (path[1] === "data") {
         count++;
+        //console.log(path);
         switch (path[2]) {
             case "LDVS_JS":
                 try {
@@ -39,6 +39,7 @@ const server = http.createServer(async (req, res) => {
                 } catch (error) {
                     res.writeHead(500, { 'Content-Type': 'text/plain' });
                     res.end('Error generating image');
+                    console.error(error)
                 }
                 break;
             default:
@@ -62,6 +63,7 @@ server.listen(PORT, () => {
 // Counting Function
 const rates = () => {   //In the span of one second, how many requests did we get
     //console.clear()
+    
     console.log("Incoming Data Rate: " + count +"/s")
     count = 0;
 }

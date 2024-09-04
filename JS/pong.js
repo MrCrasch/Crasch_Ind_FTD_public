@@ -1,6 +1,9 @@
 //pong.js
 //will be turned into oop (at some point)
 const Jimp = require("jimp");
+const path = require('path');
+
+const fontPath = "node_modules\\@jimp\\plugin-print\\fonts\\open-sans\\open-sans-16-white\\open-sans-16-white.fnt";
 
 // You can try higher res, but the generation time will suffer 
 const width = 310;
@@ -108,10 +111,10 @@ const rPaddle = new paddle(width - 10);
 
 const drawScores = async (scores, image) => {
     // Load the font (await the promise)
-    const font = await Jimp.loadFont(Jimp.FONT_SANS_16_WHITE);
+    const font = await Jimp.loadFont(fontPath);
 
     // Create the text to display
-    const text = `${scores[0]} - ${scores[1]}`;
+    const text = `${scores[1]} - ${scores[0]}`;
 
     // Measure the width and height of the text
     const textWidth = Jimp.measureText(font, text);
@@ -124,6 +127,7 @@ const drawScores = async (scores, image) => {
     // Print the text on the image
     return image.print(font, x, y, text);
 };
+
 
 const drawBall = (ball, image) => {
     const ballRadius = 3; // This will make a 6x6 square (adjust for larger squares)
