@@ -55,7 +55,9 @@ const server = http.createServer(async (req, res) => {
 
 // Server Listener
 server.listen(PORT, () => {
+    console.log("Crasch Industries: Starting Server . . .")
     console.log(`Server running at http://localhost:${PORT}/`);
+    console.log("\n")
 });
 
 
