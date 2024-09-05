@@ -1,12 +1,12 @@
 const http = require('http');
-const { LDVS } = require("./LDVS.js");
-const { pong } = require("./pong.js");
+const { LDVS, countLDVS } = require("./LDVS.js");
+const { pong, countPong } = require("./pong.js");
 const url = require('url');
 
 
 
 const PORT = 3001;
-let count = 0;
+let countServer = 0;
 const imageCache = {};  // Cache to store generated images
 
 // Create an HTTP server
@@ -15,7 +15,7 @@ const server = http.createServer(async (req, res) => {
     const path = parsedUrl.pathname.split("/");
 
     if (path[1] === "data") {
-        count++;
+        countServer++;
         //console.log(path);
         switch (path[2]) {
             case "LDVS_JS":
@@ -64,8 +64,12 @@ server.listen(PORT, () => {
 const rates = () => {   //In the span of one second, how many requests did we get
     //console.clear()
     
-    console.log("Incoming Data Rate: " + count +"/s")
-    count = 0;
+    console.log("Incoming Data Rate: " + countServer +"/s")
+    console.log("Image Gen Rate (from LDVS): " + countLDVS() + "/s"); // Get count from LDVS.js
+    console.log("Image Gen Rate (from Pong): " + countPong() + "/s"); // Get count from LDVS.js
+    console.log("\n")
+
+    countServer = 0;
 }
 
 setInterval(rates, 1000);

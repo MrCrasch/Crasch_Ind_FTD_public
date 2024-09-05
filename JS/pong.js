@@ -5,6 +5,8 @@ const path = require('path');
 
 const fontPath = "node_modules\\@jimp\\plugin-print\\fonts\\open-sans\\open-sans-16-white\\open-sans-16-white.fnt";
 
+let count = 0;
+
 // You can try higher res, but the generation time will suffer 
 const width = 310;
 const height = 210;
@@ -191,9 +193,19 @@ const pong = async (data) => {
 
     // Return the image as a buffer
     const buffer = await pongImage.getBufferAsync(Jimp.MIME_PNG);
+    
+    //update count
+    count++
+
     return buffer;
 };
 
+
 module.exports = {
-    pong
+    pong,
+    countPong: () => {
+        const currentCount = count; // Store the current count
+        count = 0; // Reset count to 0
+        return currentCount; // Return the stored count
+    }
 };

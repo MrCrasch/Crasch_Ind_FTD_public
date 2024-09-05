@@ -87,15 +87,11 @@ const generateImage = async (minValue, maxValue, colors, filename) => {
     return buffer;
 };
 
-const rates = () => {
-    // In the span of one second, how many requests did we do
-    //console.clear()
-    console.log("Image Gen Rate: " + count + "/s");
-    count = 0;
-}
-
-setInterval(rates, 1000);
-
 module.exports = {
-    LDVS
+    LDVS,
+    countLDVS: () => {
+        const currentCount = count; // Store the current count
+        count = 0; // Reset count to 0
+        return currentCount; // Return the stored count
+    }
 };
