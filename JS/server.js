@@ -1,6 +1,7 @@
 const http = require('http');
 const { LDVS, countLDVS } = require("./LDVS.js");
 const { pong, countPong } = require("./pong.js");
+const { RWR, countRWR } = require("./RWR.js");
 const url = require('url');
 
 
@@ -43,6 +44,19 @@ const server = http.createServer(async (req, res) => {
                 }
                 break;
             default:
+                case "RWR":
+                try {
+                    const buffer = await RWR(path);
+                    const filename = 'RWR.png'; // Adjust this as needed
+                    imageCache[filename] = buffer;
+                    res.writeHead(200, { 'Content-Type': 'image/png' });
+                    res.end(buffer);
+                } catch (error) {
+                    res.writeHead(500, { 'Content-Type': 'text/plain' });
+                    res.end('Error generating image');
+                    console.error(error)
+                }
+                break;
                 res.writeHead(404, {'Content-Type': 'text/plain'});
                 res.end('Not found');
                 break;
@@ -65,11 +79,15 @@ server.listen(PORT, () => {
 // Counting Function
 const rates = () => {   //In the span of one second, how many requests did we get
     //console.clear()
-    
+    if (false) {
     console.log("Incoming Data Rate: " + countServer +"/s")
     console.log("Image Gen Rate (from LDVS): " + countLDVS() + "/s"); // Get count from LDVS.js
-    console.log("Image Gen Rate (from Pong): " + countPong() + "/s"); // Get count from LDVS.js
+    console.log("Image Gen Rate (from Pong): " + countPong() + "/s"); // Get count from Pong.js
+    console.log("Image Gen Rate (from RWR): " + countRWR() + "/s"); // Get count from RWR.js
+
     console.log("\n")
+    }
+    
 
     countServer = 0;
 }
