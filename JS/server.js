@@ -79,7 +79,7 @@ server.listen(PORT, () => {
 // Counting Function
 const rates = () => {   //In the span of one second, how many requests did we get
     //console.clear()
-    if (false) {
+    if (true) {
     console.log("Incoming Data Rate: " + countServer +"/s")
     console.log("Image Gen Rate (from LDVS): " + countLDVS() + "/s"); // Get count from LDVS.js
     console.log("Image Gen Rate (from Pong): " + countPong() + "/s"); // Get count from Pong.js

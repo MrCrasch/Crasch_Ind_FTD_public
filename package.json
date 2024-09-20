@@ -4,7 +4,9 @@
   },
   "pkg": {
     "assets": [
-      "node_modules\\@jimp\\plugin-print\\fonts\\open-sans\\open-sans-16-white\\open-sans-16-white.fnt"
+      "node_modules\\@jimp\\plugin-print\\fonts\\open-sans\\open-sans-16-white\\open-sans-16-white.fnt",
+      "resources\\EnemyRWR.png",
+      "resources\\MissileRWR.png"
     ]
   }
 }

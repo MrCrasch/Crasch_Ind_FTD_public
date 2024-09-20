@@ -13,6 +13,8 @@ const SCALE_FACTOR = 20; // Each pixel represents 20 meters
 let missileImage;
 let enemyImage;
 
+let count = 0;
+
 // Helper function to convert polar coordinates to Cartesian
 const polarToCartesian = (theta, r) => {
     const rad = theta * (Math.PI / 180); // Convert degrees to radians
@@ -113,6 +115,7 @@ const preloadImages = async () => {
 
 // RWR function now ensures images are preloaded before drawing
 const RWR = async (data) => {
+    count++
     try {
         if (!missileImage || !enemyImage) {
             // If images are not yet loaded, preload them
