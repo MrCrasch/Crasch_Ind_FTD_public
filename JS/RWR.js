@@ -1,17 +1,34 @@
 const Jimp = require("jimp");
+const path = require('path');
+const fs = require('fs');
+
+// Get the directory where the executable is running
+const baseDir = path.dirname(process.execPath);
+
+// Update paths for external resources
+const namesJSONPath = path.join( 'resources', 'abbreviated_volnames.json');
+const missileImagePath = path.join( 'resources', 'MissileRWR.png');
+const enemyImagePath = path.join( 'resources', 'EnemyRWR.png');
+const fontPath = path.join( 'node_modules', '@jimp', 'plugin-print', 'fonts', 'open-sans', 'open-sans-16-white', 'open-sans-16-white.fnt');
+
+// Load the JSON file with the updated path
+const namesJSON = JSON.parse(fs.readFileSync(namesJSONPath, 'utf8'));
+
 
 // Define image dimensions
-const width = 250;
-const height = 250;
+const width = 500;
+const height = 500;
 const centerX = Math.floor(width / 2);
 const centerY = Math.floor(height / 2);
 
 // Conversion factor: 250 pixels = 2500 meters => 1 pixel = 10 meters
-const SCALE_FACTOR = 20; // Each pixel represents 20 meters
+const SCALE_FACTOR = 10; // Each pixel represents 20 meters
+const TEXT_OFFSET = 200; // Abbreviation text will be placed 500 meters (scaled) before the enemy
 
 // Global variables to hold the loaded images
 let missileImage;
 let enemyImage;
+let font;
 
 let count = 0;
 
@@ -71,7 +88,7 @@ const drawPositions = async (data) => {
     // Use the conversion function to properly parse the string
     const missiles = convertToArray(data[3]); // Array of missile coordinates
     const enemies = convertToArray(data[4]);  // Array of enemy coordinates
-
+    
     // Create a transparent PNG
     let image = new Jimp(width, height, 0x00000000); // Transparent background
 
@@ -91,10 +108,34 @@ const drawPositions = async (data) => {
     });
 
     // Draw enemies by placing enemy images and dotted lines
-    enemies.forEach(([theta, r]) => {
+    enemies.forEach(([theta, r, volume]) => {
         const [x, y] = polarToCartesian(theta, r);
         drawDottedLine(image, centerX, centerY, centerX + x, centerY - y); // Pass the image to drawDottedLine
         placeImage(x, y, enemyImage);
+
+        // Log the abbreviation based on the volume
+        let abbreviation = namesJSON[volume]?.abbreviation || "?"; // Access abbreviation using the volume as the key
+
+        // Calculate position for text with 500m offset (polar coordinates)
+        const [textX, textY] = polarToCartesian(theta, r - TEXT_OFFSET);
+
+        // Adjust the text position based on font size and image size
+        const textWidth = Jimp.measureText(font, abbreviation);
+        const textHeight = Jimp.measureTextHeight(font, abbreviation, textWidth);
+
+        // Draw the abbreviation text using the preloaded font
+        image.print(
+            font,
+            centerX + textX - Math.floor(textWidth / 2), // Center the text horizontally
+            centerY - textY - Math.floor(textHeight / 2),  // Offset vertically to center text
+            {
+                text: abbreviation,
+                alignmentX: Jimp.HORIZONTAL_ALIGN_CENTER,
+                alignmentY: Jimp.VERTICAL_ALIGN_MIDDLE
+            },
+            textWidth,
+            textHeight // Ensure the text fits in the calculated area
+        );
     });
 
     // Return the image as a buffer
@@ -102,23 +143,24 @@ const drawPositions = async (data) => {
     return buffer;
 };
 
-
-// Preload images globally
+// Preload images and font globally
 const preloadImages = async () => {
     try {
-        missileImage = await Jimp.read("./resources/MissileRWR.png");
-        enemyImage = await Jimp.read("./resources/EnemyRWR.png");     
+        missileImage = await Jimp.read(missileImagePath); // Use the updated path
+        enemyImage = await Jimp.read(enemyImagePath); // Use the updated path
+        font = await Jimp.loadFont(fontPath); // Load the font here using the updated path
     } catch (error) {
-        console.error("Error loading images:", error);
+        console.error("Error loading resources:", error);
     }
 };
 
+
 // RWR function now ensures images are preloaded before drawing
 const RWR = async (data) => {
-    count++
+    count++;
     try {
-        if (!missileImage || !enemyImage) {
-            // If images are not yet loaded, preload them
+        if (!missileImage || !enemyImage || !font) {
+            // If resources are not yet loaded, preload them
             await preloadImages();
         }
         const imageBuffer = await drawPositions(data);

@@ -5,7 +5,8 @@
   "pkg": {
     "assets": [
       "node_modules\\@jimp\\plugin-print\\fonts\\open-sans\\open-sans-16-white\\open-sans-16-white.fnt",
-      "resources\\EnemyRWR.png",
+      "node_modules\\@jimp\\plugin-print\\fonts\\open-sans\\open-sans-12-black\\open-sans-12-black.fnt",
+      "resources/*",
       "resources\\MissileRWR.png"
     ]
   }

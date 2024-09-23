@@ -1,0 +1,3422 @@
+{
+    "3": {
+        "original_name": "Purgerator",
+        "abbreviation": "PRG"
+    },
+    "8": {
+        "original_name": "Purgerator2",
+        "abbreviation": "PRG"
+    },
+    "30": {
+        "original_name": "ICBMGT",
+        "abbreviation": "IBM"
+    },
+    "32": {
+        "original_name": "Watcher Drone",
+        "abbreviation": "WDW"
+    },
+    "48": {
+        "original_name": "Land Claim Marker",
+        "abbreviation": "LCM"
+    },
+    "53": {
+        "original_name": "Husky Drone",
+        "abbreviation": "HDH"
+    },
+    "55": {
+        "original_name": "AotE Adventure Starter",
+        "abbreviation": "AAS"
+    },
+    "57": {
+        "original_name": "Merlin Drone",
+        "abbreviation": "MDM"
+    },
+    "59": {
+        "original_name": "adventureraft",
+        "abbreviation": "AVN"
+    },
+    "61": {
+        "original_name": "SD_Nuke_AT",
+        "abbreviation": "SDN"
+    },
+    "70": {
+        "original_name": "multiplayer_starter_raft",
+        "abbreviation": "MLT"
+    },
+    "73": {
+        "original_name": "Irk",
+        "abbreviation": "IRK"
+    },
+    "77": {
+        "original_name": "Vex",
+        "abbreviation": "VEX"
+    },
+    "82": {
+        "original_name": "Sharktooth",
+        "abbreviation": "SHR"
+    },
+    "91": {
+        "original_name": "Sneek",
+        "abbreviation": "SNK"
+    },
+    "94": {
+        "original_name": "Smallrauder",
+        "abbreviation": "SML"
+    },
+    "97": {
+        "original_name": "Martyr",
+        "abbreviation": "MRT"
+    },
+    "98": {
+        "original_name": "Wismar",
+        "abbreviation": "WSM"
+    },
+    "111": {
+        "original_name": "SpacePlatform",
+        "abbreviation": "SPC"
+    },
+    "115": {
+        "original_name": "MartyrSM",
+        "abbreviation": "MRT"
+    },
+    "119": {
+        "original_name": "Copperhead",
+        "abbreviation": "CPP"
+    },
+    "122": {
+        "original_name": "SkyViper",
+        "abbreviation": "SKY"
+    },
+    "126": {
+        "original_name": "Rat",
+        "abbreviation": "RAT"
+    },
+    "127": {
+        "original_name": "Dromaeo-D",
+        "abbreviation": "DRM"
+    },
+    "129": {
+        "original_name": "Gust",
+        "abbreviation": "GST"
+    },
+    "131": {
+        "original_name": "Dromaeo-A",
+        "abbreviation": "DRM"
+    },
+    "134": {
+        "original_name": "Guardian II",
+        "abbreviation": "GIG"
+    },
+    "145": {
+        "original_name": "Smite",
+        "abbreviation": "SMT"
+    },
+    "156": {
+        "original_name": "OWL",
+        "abbreviation": "OWL"
+    },
+    "158": {
+        "original_name": "Harasser",
+        "abbreviation": "HRS"
+    },
+    "160": {
+        "original_name": "Pearl",
+        "abbreviation": "PRL"
+    },
+    "161": {
+        "original_name": "Dust_Chopper",
+        "abbreviation": "DST"
+    },
+    "163": {
+        "original_name": "Ripple",
+        "abbreviation": "RPP"
+    },
+    "168": {
+        "original_name": "starting_rib",
+        "abbreviation": "STR"
+    },
+    "169": {
+        "original_name": "Nanobot2",
+        "abbreviation": "NNB"
+    },
+    "173": {
+        "original_name": "VTOLDrone",
+        "abbreviation": "VTL"
+    },
+    "179": {
+        "original_name": "Meek",
+        "abbreviation": "MEE"
+    },
+    "180": {
+        "original_name": "Oyster Catcher",
+        "abbreviation": "OCY"
+    },
+    "195": {
+        "original_name": "DusterSM",
+        "abbreviation": "DST"
+    },
+    "197": {
+        "original_name": "Duster",
+        "abbreviation": "DST"
+    },
+    "209": {
+        "original_name": "Javelin",
+        "abbreviation": "JVL"
+    },
+    "213": {
+        "original_name": "BomberDrone",
+        "abbreviation": "BMB"
+    },
+    "223": {
+        "original_name": "Barnacle",
+        "abbreviation": "BRN"
+    },
+    "228": {
+        "original_name": "Spiral",
+        "abbreviation": "SPR"
+    },
+    "230": {
+        "original_name": "Hake Carrier Wing",
+        "abbreviation": "HKW"
+    },
+    "232": {
+        "original_name": "Stinger",
+        "abbreviation": "STN"
+    },
+    "236": {
+        "original_name": "Tadpole_Mk_I",
+        "abbreviation": "TDP"
+    },
+    "239": {
+        "original_name": "TorpedoBomberDrone",
+        "abbreviation": "TRP"
+    },
+    "242": {
+        "original_name": "FloatingTarget",
+        "abbreviation": "FLT"
+    },
+    "243": {
+        "original_name": "Valor",
+        "abbreviation": "VLR"
+    },
+    "248": {
+        "original_name": "StingerMk3",
+        "abbreviation": "STN"
+    },
+    "255": {
+        "original_name": "Hotspur",
+        "abbreviation": "HTS"
+    },
+    "258": {
+        "original_name": "Dromaeo",
+        "abbreviation": "DRM"
+    },
+    "260": {
+        "original_name": "StingerMk2",
+        "abbreviation": "STN"
+    },
+    "266": {
+        "original_name": "Sliver",
+        "abbreviation": "SLV"
+    },
+    "268": {
+        "original_name": "Dauntless",
+        "abbreviation": "DNT"
+    },
+    "270": {
+        "original_name": "XF04",
+        "abbreviation": "XF"
+    },
+    "281": {
+        "original_name": "SmallSupplytower",
+        "abbreviation": "SML"
+    },
+    "282": {
+        "original_name": "Sidewinder",
+        "abbreviation": "SDW"
+    },
+    "289": {
+        "original_name": "Scorn",
+        "abbreviation": "SCR"
+    },
+    "292": {
+        "original_name": "Egret",
+        "abbreviation": "ERT"
+    },
+    "295": {
+        "original_name": "TargetBoat",
+        "abbreviation": "TRG"
+    },
+    "296": {
+        "original_name": "RatRod",
+        "abbreviation": "RTR"
+    },
+    "298": {
+        "original_name": "Penguin",
+        "abbreviation": "PNG"
+    },
+    "299": {
+        "original_name": "Harasser",
+        "abbreviation": "HRS"
+    },
+    "301": {
+        "original_name": "QuadCopterDrone",
+        "abbreviation": "QDC"
+    },
+    "310": {
+        "original_name": "Tolerance",
+        "abbreviation": "TLR"
+    },
+    "320": {
+        "original_name": "SeaViper",
+        "abbreviation": "SVP"
+    },
+    "325": {
+        "original_name": "Black_Mamba",
+        "abbreviation": "BLC"
+    },
+    "327": {
+        "original_name": "Antlion",
+        "abbreviation": "ATL"
+    },
+    "333": {
+        "original_name": "Shock",
+        "abbreviation": "SHC"
+    },
+    "335": {
+        "original_name": "HavocbROKEN",
+        "abbreviation": "HVC"
+    },
+    "336": {
+        "original_name": "Static",
+        "abbreviation": "STT"
+    },
+    "342": {
+        "original_name": "Vibrant",
+        "abbreviation": "VBR"
+    },
+    "347": {
+        "original_name": "Death Adder",
+        "abbreviation": "DAD"
+    },
+    "349": {
+        "original_name": "Lacerator",
+        "abbreviation": "LCR"
+    },
+    "351": {
+        "original_name": "Harrow",
+        "abbreviation": "HRR"
+    },
+    "356": {
+        "original_name": "Small_Habitation_Module",
+        "abbreviation": "SML"
+    },
+    "360": {
+        "original_name": "Tiny_House_DWG",
+        "abbreviation": "TNY"
+    },
+    "362": {
+        "original_name": "XB_42_Lynx",
+        "abbreviation": "XBL"
+    },
+    "363": {
+        "original_name": "Super_TweetieSM",
+        "abbreviation": "SPR"
+    },
+    "364": {
+        "original_name": "HellRaven",
+        "abbreviation": "HLL"
+    },
+    "365": {
+        "original_name": "Tower_unarmed",
+        "abbreviation": "TWR"
+    },
+    "371": {
+        "original_name": "Royale",
+        "abbreviation": "RYL"
+    },
+    "372": {
+        "original_name": "Pixy",
+        "abbreviation": "PXY"
+    },
+    "375": {
+        "original_name": "SinEater",
+        "abbreviation": "SNT"
+    },
+    "390": {
+        "original_name": "Tiny_House_WF",
+        "abbreviation": "TNY"
+    },
+    "392": {
+        "original_name": "XF_30_Gannet",
+        "abbreviation": "XFG"
+    },
+    "396": {
+        "original_name": "Mining Rig",
+        "abbreviation": "MRM"
+    },
+    "407": {
+        "original_name": "raft",
+        "abbreviation": "RFT"
+    },
+    "409": {
+        "original_name": "SandViper",
+        "abbreviation": "SND"
+    },
+    "418": {
+        "original_name": "ObeliskMk2",
+        "abbreviation": "OLS"
+    },
+    "423": {
+        "original_name": "Defiant",
+        "abbreviation": "DFN"
+    },
+    "425": {
+        "original_name": "Sacrificer",
+        "abbreviation": "SCR"
+    },
+    "428": {
+        "original_name": "Trilobyte",
+        "abbreviation": "TRL"
+    },
+    "434": {
+        "original_name": "Pensive Pigeon",
+        "abbreviation": "PPP"
+    },
+    "447": {
+        "original_name": "Jipachi",
+        "abbreviation": "JPC"
+    },
+    "449": {
+        "original_name": "DroneSpawnTower",
+        "abbreviation": "DRN"
+    },
+    "478": {
+        "original_name": "Shuriken",
+        "abbreviation": "SHR"
+    },
+    "491": {
+        "original_name": "Tributary",
+        "abbreviation": "TRB"
+    },
+    "493": {
+        "original_name": "SeaAdder",
+        "abbreviation": "SDD"
+    },
+    "496": {
+        "original_name": "Streak",
+        "abbreviation": "STR"
+    },
+    "501": {
+        "original_name": "Turret_Emplacement",
+        "abbreviation": "TRR"
+    },
+    "506": {
+        "original_name": "OWHouseC",
+        "abbreviation": "OHS"
+    },
+    "507": {
+        "original_name": "Proton_Swarm",
+        "abbreviation": "PRT"
+    },
+    "508": {
+        "original_name": "Barracks",
+        "abbreviation": "BRR"
+    },
+    "510": {
+        "original_name": "GT_rotor_prototypes",
+        "abbreviation": "GTR"
+    },
+    "513": {
+        "original_name": "Peacebreaker",
+        "abbreviation": "PCB"
+    },
+    "515": {
+        "original_name": "Drake",
+        "abbreviation": "DRK"
+    },
+    "530": {
+        "original_name": "Dredge",
+        "abbreviation": "DRD"
+    },
+    "532": {
+        "original_name": "Supplytower",
+        "abbreviation": "SPP"
+    },
+    "535": {
+        "original_name": "Falcon",
+        "abbreviation": "FLC"
+    },
+    "536": {
+        "original_name": "Saviour",
+        "abbreviation": "SVR"
+    },
+    "538": {
+        "original_name": "SandRaider",
+        "abbreviation": "SND"
+    },
+    "546": {
+        "original_name": "Slayer",
+        "abbreviation": "SLY"
+    },
+    "549": {
+        "original_name": "Shadowcat",
+        "abbreviation": "SHD"
+    },
+    "550": {
+        "original_name": "Irritation",
+        "abbreviation": "IRT"
+    },
+    "551": {
+        "original_name": "DragonsClaw",
+        "abbreviation": "DRG"
+    },
+    "552": {
+        "original_name": "Coyote",
+        "abbreviation": "CYT"
+    },
+    "565": {
+        "original_name": "Forlorn_Outpost",
+        "abbreviation": "FRL"
+    },
+    "568": {
+        "original_name": "Rend",
+        "abbreviation": "RND"
+    },
+    "589": {
+        "original_name": "Flashheart",
+        "abbreviation": "FLS"
+    },
+    "592": {
+        "original_name": "Sea Cobra",
+        "abbreviation": "SCS"
+    },
+    "599": {
+        "original_name": "LAMSDrone",
+        "abbreviation": "LMS"
+    },
+    "607": {
+        "original_name": "Alacrity1",
+        "abbreviation": "ACR"
+    },
+    "618": {
+        "original_name": "SmokerSM",
+        "abbreviation": "SMK"
+    },
+    "626": {
+        "original_name": "Smoker",
+        "abbreviation": "SMK"
+    },
+    "628": {
+        "original_name": "Shock",
+        "abbreviation": "SHC"
+    },
+    "634": {
+        "original_name": "Harpoon",
+        "abbreviation": "HRP"
+    },
+    "644": {
+        "original_name": "Player_House",
+        "abbreviation": "PLY"
+    },
+    "645": {
+        "original_name": "Spiral_Squadron",
+        "abbreviation": "SPR"
+    },
+    "649": {
+        "original_name": "Radar_Dish",
+        "abbreviation": "RDR"
+    },
+    "654": {
+        "original_name": "OW_BallistaeB",
+        "abbreviation": "OBL"
+    },
+    "657": {
+        "original_name": "MonkeyBarrelSM",
+        "abbreviation": "MNK"
+    },
+    "661": {
+        "original_name": "MonkeyBarrel",
+        "abbreviation": "MNK"
+    },
+    "671": {
+        "original_name": "Spike",
+        "abbreviation": "SPK"
+    },
+    "678": {
+        "original_name": "Jackal",
+        "abbreviation": "JCK"
+    },
+    "679": {
+        "original_name": "Satisfaction",
+        "abbreviation": "STS"
+    },
+    "685": {
+        "original_name": "Sledge",
+        "abbreviation": "SLD"
+    },
+    "688": {
+        "original_name": "Fenrir",
+        "abbreviation": "FNR"
+    },
+    "689": {
+        "original_name": "Sparrow",
+        "abbreviation": "SPR"
+    },
+    "699": {
+        "original_name": "LRMTurret",
+        "abbreviation": "LRM"
+    },
+    "706": {
+        "original_name": "Ghost",
+        "abbreviation": "GHS"
+    },
+    "713": {
+        "original_name": "Firefly",
+        "abbreviation": "FRF"
+    },
+    "736": {
+        "original_name": "OW Radar Tower",
+        "abbreviation": "ORT"
+    },
+    "745": {
+        "original_name": "Laser_Drill",
+        "abbreviation": "LSR"
+    },
+    "751": {
+        "original_name": "Landharvester",
+        "abbreviation": "LND"
+    },
+    "754": {
+        "original_name": "Bloodstoneobelisk",
+        "abbreviation": "BLD"
+    },
+    "764": {
+        "original_name": "Small_House_WF",
+        "abbreviation": "SML"
+    },
+    "768": {
+        "original_name": "ShrikeSM",
+        "abbreviation": "SHR"
+    },
+    "773": {
+        "original_name": "Lako",
+        "abbreviation": "LAK"
+    },
+    "780": {
+        "original_name": "Player_Garage",
+        "abbreviation": "PLY"
+    },
+    "786": {
+        "original_name": "Ripper",
+        "abbreviation": "RPP"
+    },
+    "788": {
+        "original_name": "Gnat",
+        "abbreviation": "GNT"
+    },
+    "802": {
+        "original_name": "OWCannon_TowerB",
+        "abbreviation": "OCN"
+    },
+    "803": {
+        "original_name": "Rattler",
+        "abbreviation": "RTT"
+    },
+    "810": {
+        "original_name": "Retiarius",
+        "abbreviation": "RTR"
+    },
+    "818": {
+        "original_name": "Wisp",
+        "abbreviation": "WSP"
+    },
+    "819": {
+        "original_name": "Sapphire",
+        "abbreviation": "SPP"
+    },
+    "821": {
+        "original_name": "Moskito",
+        "abbreviation": "MSK"
+    },
+    "840": {
+        "original_name": "Boomslang",
+        "abbreviation": "BMS"
+    },
+    "847": {
+        "original_name": "OWCannon_Tower",
+        "abbreviation": "OCN"
+    },
+    "848": {
+        "original_name": "Churchoftheflayedgod",
+        "abbreviation": "CHR"
+    },
+    "859": {
+        "original_name": "Orcinus",
+        "abbreviation": "OCN"
+    },
+    "867": {
+        "original_name": "Chorus",
+        "abbreviation": "CHR"
+    },
+    "871": {
+        "original_name": "Kookie Kestrel",
+        "abbreviation": "KKK"
+    },
+    "875": {
+        "original_name": "Bloodstone Fortress2",
+        "abbreviation": "BFB"
+    },
+    "880": {
+        "original_name": "Python",
+        "abbreviation": "PYT"
+    },
+    "899": {
+        "original_name": "Cutlass",
+        "abbreviation": "CTL"
+    },
+    "906": {
+        "original_name": "Craftsman",
+        "abbreviation": "CRF"
+    },
+    "908": {
+        "original_name": "Defiance",
+        "abbreviation": "DFN"
+    },
+    "913": {
+        "original_name": "Fuse",
+        "abbreviation": "FUS"
+    },
+    "922": {
+        "original_name": "Bloodstone Fortress",
+        "abbreviation": "BFB"
+    },
+    "927": {
+        "original_name": "Medium_House_DWG",
+        "abbreviation": "MDM"
+    },
+    "928": {
+        "original_name": "Cherenkov",
+        "abbreviation": "CHR"
+    },
+    "930": {
+        "original_name": "MarrowPulper",
+        "abbreviation": "MRR"
+    },
+    "936": {
+        "original_name": "Heyla",
+        "abbreviation": "HYL"
+    },
+    "941": {
+        "original_name": "Scythe",
+        "abbreviation": "SCY"
+    },
+    "942": {
+        "original_name": "Scalawag",
+        "abbreviation": "SCL"
+    },
+    "943": {
+        "original_name": "Sentinel",
+        "abbreviation": "SNT"
+    },
+    "944": {
+        "original_name": "Tempest",
+        "abbreviation": "TMP"
+    },
+    "956": {
+        "original_name": "Kite Fighter",
+        "abbreviation": "KFK"
+    },
+    "963": {
+        "original_name": "FlyingSquirrel",
+        "abbreviation": "FLY"
+    },
+    "965": {
+        "original_name": "Pearl Swarm",
+        "abbreviation": "PSP"
+    },
+    "968": {
+        "original_name": "Oblaka",
+        "abbreviation": "OLK"
+    },
+    "970": {
+        "original_name": "Vanguard",
+        "abbreviation": "VNG"
+    },
+    "973": {
+        "original_name": "SeaFlayer",
+        "abbreviation": "SFL"
+    },
+    "978": {
+        "original_name": "Medium_House_WF",
+        "abbreviation": "MDM"
+    },
+    "984": {
+        "original_name": "Taipan",
+        "abbreviation": "TPN"
+    },
+    "998": {
+        "original_name": "DarkHammer",
+        "abbreviation": "DRK"
+    },
+    "1000": {
+        "original_name": "Red_Tuna",
+        "abbreviation": "RDT"
+    },
+    "1010": {
+        "original_name": "Static_Squadron",
+        "abbreviation": "STT"
+    },
+    "1016": {
+        "original_name": "Hammer",
+        "abbreviation": "HMM"
+    },
+    "1018": {
+        "original_name": "Culverin",
+        "abbreviation": "CLV"
+    },
+    "1026": {
+        "original_name": "Gannet_Squadron",
+        "abbreviation": "GNN"
+    },
+    "1038": {
+        "original_name": "Nike",
+        "abbreviation": "NIK"
+    },
+    "1041": {
+        "original_name": "Lynx_Squadron",
+        "abbreviation": "LYN"
+    },
+    "1043": {
+        "original_name": "Hellfire",
+        "abbreviation": "HLL"
+    },
+    "1056": {
+        "original_name": "Overseer",
+        "abbreviation": "ORS"
+    },
+    "1058": {
+        "original_name": "Hadron",
+        "abbreviation": "HDR"
+    },
+    "1065": {
+        "original_name": "Chrysaetos",
+        "abbreviation": "CHR"
+    },
+    "1076": {
+        "original_name": "Hexxer",
+        "abbreviation": "HXX"
+    },
+    "1080": {
+        "original_name": "Rusted Ram Small House",
+        "abbreviation": "RRS"
+    },
+    "1088": {
+        "original_name": "Rapier",
+        "abbreviation": "RPR"
+    },
+    "1089": {
+        "original_name": "OWHouseB",
+        "abbreviation": "OHS"
+    },
+    "1092": {
+        "original_name": "Volta",
+        "abbreviation": "VLT"
+    },
+    "1095": {
+        "original_name": "AA_Tower",
+        "abbreviation": "AWR"
+    },
+    "1096": {
+        "original_name": "Pulverizer",
+        "abbreviation": "PLV"
+    },
+    "1104": {
+        "original_name": "Marianas",
+        "abbreviation": "MRN"
+    },
+    "1111": {
+        "original_name": "Medium_Habitation_Module",
+        "abbreviation": "MDM"
+    },
+    "1112": {
+        "original_name": "Damaged Reaper",
+        "abbreviation": "DRD"
+    },
+    "1124": {
+        "original_name": "Wanda",
+        "abbreviation": "WND"
+    },
+    "1133": {
+        "original_name": "MissileLauncher",
+        "abbreviation": "MSS"
+    },
+    "1134": {
+        "original_name": "ExecutionerTurret",
+        "abbreviation": "ECT"
+    },
+    "1139": {
+        "original_name": "ScarletNova",
+        "abbreviation": "SCR"
+    },
+    "1147": {
+        "original_name": "Pontus",
+        "abbreviation": "PNT"
+    },
+    "1150": {
+        "original_name": "Scrapworks",
+        "abbreviation": "SCR"
+    },
+    "1151": {
+        "original_name": "Large_House_WF",
+        "abbreviation": "LRG"
+    },
+    "1154": {
+        "original_name": "Large_House_DWG",
+        "abbreviation": "LRG"
+    },
+    "1157": {
+        "original_name": "Sentinel",
+        "abbreviation": "SNT"
+    },
+    "1162": {
+        "original_name": "Nurse_shark",
+        "abbreviation": "NRS"
+    },
+    "1170": {
+        "original_name": "Forsaken",
+        "abbreviation": "FRS"
+    },
+    "1173": {
+        "original_name": "Flare",
+        "abbreviation": "FLR"
+    },
+    "1182": {
+        "original_name": "Spirit",
+        "abbreviation": "SPR"
+    },
+    "1186": {
+        "original_name": "Current",
+        "abbreviation": "CRR"
+    },
+    "1194": {
+        "original_name": "Flash",
+        "abbreviation": "FLS"
+    },
+    "1199": {
+        "original_name": "Valor Swarm",
+        "abbreviation": "VSV"
+    },
+    "1214": {
+        "original_name": "Axion",
+        "abbreviation": "AXI"
+    },
+    "1217": {
+        "original_name": "Nessie",
+        "abbreviation": "NSS"
+    },
+    "1230": {
+        "original_name": "Mare",
+        "abbreviation": "MAR"
+    },
+    "1233": {
+        "original_name": "Centaur",
+        "abbreviation": "CNT"
+    },
+    "1235": {
+        "original_name": "Savior",
+        "abbreviation": "SVR"
+    },
+    "1242": {
+        "original_name": "Chrysoprase",
+        "abbreviation": "CHR"
+    },
+    "1244": {
+        "original_name": "Zeus",
+        "abbreviation": "ZEU"
+    },
+    "1255": {
+        "original_name": "Hummingbird",
+        "abbreviation": "HMM"
+    },
+    "1257": {
+        "original_name": "Peregrine_Squadron",
+        "abbreviation": "PRG"
+    },
+    "1262": {
+        "original_name": "Wraith",
+        "abbreviation": "WRT"
+    },
+    "1264": {
+        "original_name": "Watchtower",
+        "abbreviation": "WTC"
+    },
+    "1270": {
+        "original_name": "Benediction",
+        "abbreviation": "BND"
+    },
+    "1272": {
+        "original_name": "Executioner",
+        "abbreviation": "ECT"
+    },
+    "1294": {
+        "original_name": "KingCobra",
+        "abbreviation": "KNG"
+    },
+    "1312": {
+        "original_name": "Matrix",
+        "abbreviation": "MTR"
+    },
+    "1313": {
+        "original_name": "Inquisitor",
+        "abbreviation": "IQS"
+    },
+    "1328": {
+        "original_name": "Sliver Swarm",
+        "abbreviation": "SSS"
+    },
+    "1336": {
+        "original_name": "Tithe Hold Land",
+        "abbreviation": "THL"
+    },
+    "1337": {
+        "original_name": "nightjar",
+        "abbreviation": "NGH"
+    },
+    "1353": {
+        "original_name": "Orion",
+        "abbreviation": "ORI"
+    },
+    "1355": {
+        "original_name": "Uropygi",
+        "abbreviation": "UPY"
+    },
+    "1366": {
+        "original_name": "Ravager",
+        "abbreviation": "RVG"
+    },
+    "1370": {
+        "original_name": "Falcon_Squadron",
+        "abbreviation": "FLC"
+    },
+    "1379": {
+        "original_name": "Felix SM",
+        "abbreviation": "FSF"
+    },
+    "1380": {
+        "original_name": "Kingfisher",
+        "abbreviation": "KNG"
+    },
+    "1392": {
+        "original_name": "Wyvern",
+        "abbreviation": "WYV"
+    },
+    "1396": {
+        "original_name": "Contraband",
+        "abbreviation": "CNT"
+    },
+    "1398": {
+        "original_name": "Fracture",
+        "abbreviation": "FRC"
+    },
+    "1404": {
+        "original_name": "Smuggler",
+        "abbreviation": "SMG"
+    },
+    "1409": {
+        "original_name": "BabyPaddlegun",
+        "abbreviation": "BBY"
+    },
+    "1421": {
+        "original_name": "Wrecker",
+        "abbreviation": "WRC"
+    },
+    "1422": {
+        "original_name": "Charger",
+        "abbreviation": "CHR"
+    },
+    "1429": {
+        "original_name": "Peregrine",
+        "abbreviation": "PRG"
+    },
+    "1434": {
+        "original_name": "Dipole",
+        "abbreviation": "DPL"
+    },
+    "1436": {
+        "original_name": "Leopold",
+        "abbreviation": "LPL"
+    },
+    "1450": {
+        "original_name": "Xolotl",
+        "abbreviation": "XLT"
+    },
+    "1451": {
+        "original_name": "ScuttlegunSM",
+        "abbreviation": "SCT"
+    },
+    "1460": {
+        "original_name": "Retribution",
+        "abbreviation": "RTR"
+    },
+    "1477": {
+        "original_name": "Scuttlegun",
+        "abbreviation": "SCT"
+    },
+    "1481": {
+        "original_name": "Dissector",
+        "abbreviation": "DSS"
+    },
+    "1483": {
+        "original_name": "Bailey",
+        "abbreviation": "BLY"
+    },
+    "1486": {
+        "original_name": "Reaver",
+        "abbreviation": "RVR"
+    },
+    "1489": {
+        "original_name": "Pinacle",
+        "abbreviation": "PNC"
+    },
+    "1493": {
+        "original_name": "Curiosity",
+        "abbreviation": "CRS"
+    },
+    "1499": {
+        "original_name": "SwordFish",
+        "abbreviation": "SWR"
+    },
+    "1504": {
+        "original_name": "Cyclopes",
+        "abbreviation": "CYC"
+    },
+    "1509": {
+        "original_name": "Reaper",
+        "abbreviation": "RPR"
+    },
+    "1514": {
+        "original_name": "SwordFishSM",
+        "abbreviation": "SWR"
+    },
+    "1515": {
+        "original_name": "Havoc Swarm",
+        "abbreviation": "HSH"
+    },
+    "1523": {
+        "original_name": "Paladin",
+        "abbreviation": "PLD"
+    },
+    "1538": {
+        "original_name": "Polaris",
+        "abbreviation": "PLR"
+    },
+    "1539": {
+        "original_name": "Pequod",
+        "abbreviation": "PQD"
+    },
+    "1540": {
+        "original_name": "Allegiance",
+        "abbreviation": "ALG"
+    },
+    "1546": {
+        "original_name": "Rapture",
+        "abbreviation": "RPT"
+    },
+    "1549": {
+        "original_name": "Defiant",
+        "abbreviation": "DFN"
+    },
+    "1582": {
+        "original_name": "EarthRaker",
+        "abbreviation": "ETH"
+    },
+    "1583": {
+        "original_name": "Fletcher",
+        "abbreviation": "FLT"
+    },
+    "1589": {
+        "original_name": "Bear",
+        "abbreviation": "BEA"
+    },
+    "1591": {
+        "original_name": "Brushcutter",
+        "abbreviation": "BRS"
+    },
+    "1608": {
+        "original_name": "Aardsnel",
+        "abbreviation": "ADS"
+    },
+    "1611": {
+        "original_name": "Seagull",
+        "abbreviation": "SGL"
+    },
+    "1614": {
+        "original_name": "Iapetus",
+        "abbreviation": "ITS"
+    },
+    "1615": {
+        "original_name": "Pilgrim",
+        "abbreviation": "PLG"
+    },
+    "1630": {
+        "original_name": "Panther",
+        "abbreviation": "PNT"
+    },
+    "1649": {
+        "original_name": "Valkyria",
+        "abbreviation": "VLK"
+    },
+    "1660": {
+        "original_name": "GothaSM",
+        "abbreviation": "GTH"
+    },
+    "1662": {
+        "original_name": "EcclesiaMontem",
+        "abbreviation": "ECL"
+    },
+    "1684": {
+        "original_name": "Sinnersoutpost",
+        "abbreviation": "SNN"
+    },
+    "1685": {
+        "original_name": "Dryad",
+        "abbreviation": "DRY"
+    },
+    "1694": {
+        "original_name": "Convictor",
+        "abbreviation": "CNV"
+    },
+    "1696": {
+        "original_name": "Toad",
+        "abbreviation": "TOA"
+    },
+    "1715": {
+        "original_name": "Conestoga",
+        "abbreviation": "CNS"
+    },
+    "1719": {
+        "original_name": "Aurora Borealis",
+        "abbreviation": "ABR"
+    },
+    "1727": {
+        "original_name": "Corsair",
+        "abbreviation": "CRS"
+    },
+    "1735": {
+        "original_name": "Bee",
+        "abbreviation": "BEE"
+    },
+    "1736": {
+        "original_name": "HydroponicsFarm",
+        "abbreviation": "HYD"
+    },
+    "1740": {
+        "original_name": "Telemachus",
+        "abbreviation": "TLM"
+    },
+    "1742": {
+        "original_name": "PredatorX",
+        "abbreviation": "PRD"
+    },
+    "1753": {
+        "original_name": "WaterBuffalo",
+        "abbreviation": "WTR"
+    },
+    "1755": {
+        "original_name": "Onager",
+        "abbreviation": "OGR"
+    },
+    "1760": {
+        "original_name": "Dagger",
+        "abbreviation": "DGG"
+    },
+    "1803": {
+        "original_name": "Fury",
+        "abbreviation": "FRY"
+    },
+    "1839": {
+        "original_name": "Hammer",
+        "abbreviation": "HMM"
+    },
+    "1854": {
+        "original_name": "Jacobs Scorn",
+        "abbreviation": "JSJ"
+    },
+    "1860": {
+        "original_name": "Faraday",
+        "abbreviation": "FRD"
+    },
+    "1868": {
+        "original_name": "CivilianHouse",
+        "abbreviation": "CVL"
+    },
+    "1873": {
+        "original_name": "Jacobs Scorn",
+        "abbreviation": "JSJ"
+    },
+    "1878": {
+        "original_name": "Manatee",
+        "abbreviation": "MNT"
+    },
+    "1881": {
+        "original_name": "Ocelot",
+        "abbreviation": "OLT"
+    },
+    "1887": {
+        "original_name": "Mrdr",
+        "abbreviation": "MRD"
+    },
+    "1891": {
+        "original_name": "starting_fortress",
+        "abbreviation": "STR"
+    },
+    "1901": {
+        "original_name": "Sunfish",
+        "abbreviation": "SNF"
+    },
+    "1902": {
+        "original_name": "Lamprey",
+        "abbreviation": "LMP"
+    },
+    "1912": {
+        "original_name": "Bison",
+        "abbreviation": "BSN"
+    },
+    "1913": {
+        "original_name": "Mule",
+        "abbreviation": "MUL"
+    },
+    "1921": {
+        "original_name": "Albatross",
+        "abbreviation": "ABT"
+    },
+    "1922": {
+        "original_name": "Revox Materials Factory",
+        "abbreviation": "RMF"
+    },
+    "1923": {
+        "original_name": "Albatros",
+        "abbreviation": "ABT"
+    },
+    "1924": {
+        "original_name": "Scoundrel",
+        "abbreviation": "SCN"
+    },
+    "1929": {
+        "original_name": "Arbalest",
+        "abbreviation": "ABL"
+    },
+    "1932": {
+        "original_name": "Banshee",
+        "abbreviation": "BNS"
+    },
+    "1962": {
+        "original_name": "OilRefineryPlatform",
+        "abbreviation": "ORF"
+    },
+    "1964": {
+        "original_name": "Harpy_Squadron",
+        "abbreviation": "HRP"
+    },
+    "1965": {
+        "original_name": "Frustration",
+        "abbreviation": "FRS"
+    },
+    "1986": {
+        "original_name": "Aurora",
+        "abbreviation": "AUR"
+    },
+    "1992": {
+        "original_name": "Beluga",
+        "abbreviation": "BLG"
+    },
+    "1997": {
+        "original_name": "Bombard",
+        "abbreviation": "BMB"
+    },
+    "2003": {
+        "original_name": "Harpy Squadron AotE",
+        "abbreviation": "HSA"
+    },
+    "2015": {
+        "original_name": "Eternal",
+        "abbreviation": "ERN"
+    },
+    "2017": {
+        "original_name": "Hail",
+        "abbreviation": "HAI"
+    },
+    "2050": {
+        "original_name": "Raider",
+        "abbreviation": "RDR"
+    },
+    "2052": {
+        "original_name": "Cleric",
+        "abbreviation": "CLR"
+    },
+    "2056": {
+        "original_name": "Spite",
+        "abbreviation": "SPT"
+    },
+    "2058": {
+        "original_name": "Starcry",
+        "abbreviation": "STR"
+    },
+    "2059": {
+        "original_name": "SeabirdCannonFortress",
+        "abbreviation": "SBR"
+    },
+    "2066": {
+        "original_name": "Pelican",
+        "abbreviation": "PLC"
+    },
+    "2070": {
+        "original_name": "Iron Pelican",
+        "abbreviation": "IPR"
+    },
+    "2078": {
+        "original_name": "Grouper",
+        "abbreviation": "GRP"
+    },
+    "2081": {
+        "original_name": "Pelican",
+        "abbreviation": "PLC"
+    },
+    "2086": {
+        "original_name": "Infinity",
+        "abbreviation": "IFN"
+    },
+    "2088": {
+        "original_name": "Nova",
+        "abbreviation": "NOV"
+    },
+    "2102": {
+        "original_name": "Jigabachi",
+        "abbreviation": "JGB"
+    },
+    "2107": {
+        "original_name": "BelugaElite",
+        "abbreviation": "BLG"
+    },
+    "2134": {
+        "original_name": "Transient",
+        "abbreviation": "TRN"
+    },
+    "2135": {
+        "original_name": "Dawn",
+        "abbreviation": "DWN"
+    },
+    "2164": {
+        "original_name": "Catshark",
+        "abbreviation": "CTS"
+    },
+    "2166": {
+        "original_name": "Velocity",
+        "abbreviation": "VLC"
+    },
+    "2168": {
+        "original_name": "BrownRecluse",
+        "abbreviation": "BRW"
+    },
+    "2175": {
+        "original_name": "Obelisk_GT",
+        "abbreviation": "OLS"
+    },
+    "2191": {
+        "original_name": "Foot Hold Base",
+        "abbreviation": "FHB"
+    },
+    "2216": {
+        "original_name": "TalonSkyFortress",
+        "abbreviation": "TLN"
+    },
+    "2233": {
+        "original_name": "Surge",
+        "abbreviation": "SRG"
+    },
+    "2234": {
+        "original_name": "Rain",
+        "abbreviation": "RAI"
+    },
+    "2241": {
+        "original_name": "Werebat",
+        "abbreviation": "WRB"
+    },
+    "2246": {
+        "original_name": "Obelisk",
+        "abbreviation": "OLS"
+    },
+    "2273": {
+        "original_name": "Escalade",
+        "abbreviation": "ECL"
+    },
+    "2316": {
+        "original_name": "The Repentance",
+        "abbreviation": "TRT"
+    },
+    "2317": {
+        "original_name": "Vengeful",
+        "abbreviation": "VNG"
+    },
+    "2339": {
+        "original_name": "Marauder_Old_Style",
+        "abbreviation": "MRD"
+    },
+    "2343": {
+        "original_name": "SMSDaring",
+        "abbreviation": "SMS"
+    },
+    "2344": {
+        "original_name": "Raptor_Jet",
+        "abbreviation": "RPT"
+    },
+    "2347": {
+        "original_name": "Essen",
+        "abbreviation": "ESN"
+    },
+    "2353": {
+        "original_name": "Blacktip Shark",
+        "abbreviation": "BSB"
+    },
+    "2367": {
+        "original_name": "Proctor",
+        "abbreviation": "PRC"
+    },
+    "2381": {
+        "original_name": "Auroch",
+        "abbreviation": "ACH"
+    },
+    "2386": {
+        "original_name": "GreatAxe",
+        "abbreviation": "GRT"
+    },
+    "2403": {
+        "original_name": "Dusk",
+        "abbreviation": "DSK"
+    },
+    "2417": {
+        "original_name": "Meek Swarm",
+        "abbreviation": "MSM"
+    },
+    "2418": {
+        "original_name": "Noir",
+        "abbreviation": "NOI"
+    },
+    "2421": {
+        "original_name": "Watchman",
+        "abbreviation": "WTC"
+    },
+    "2422": {
+        "original_name": "Tithe Hold",
+        "abbreviation": "THT"
+    },
+    "2441": {
+        "original_name": "Malice",
+        "abbreviation": "MLC"
+    },
+    "2445": {
+        "original_name": "Gotha",
+        "abbreviation": "GTH"
+    },
+    "2459": {
+        "original_name": "Pixy Swarm",
+        "abbreviation": "PSP"
+    },
+    "2487": {
+        "original_name": "Bastion",
+        "abbreviation": "BST"
+    },
+    "2516": {
+        "original_name": "Ohm",
+        "abbreviation": "OHM"
+    },
+    "2532": {
+        "original_name": "Stratocumulus",
+        "abbreviation": "STR"
+    },
+    "2533": {
+        "original_name": "Flail",
+        "abbreviation": "FLL"
+    },
+    "2544": {
+        "original_name": "AirFort",
+        "abbreviation": "AFR"
+    },
+    "2565": {
+        "original_name": "Ramrauder",
+        "abbreviation": "RMR"
+    },
+    "2566": {
+        "original_name": "PaddlegunPrototype",
+        "abbreviation": "PDD"
+    },
+    "2575": {
+        "original_name": "ShootingStar",
+        "abbreviation": "SHT"
+    },
+    "2587": {
+        "original_name": "Osprey",
+        "abbreviation": "OPR"
+    },
+    "2589": {
+        "original_name": "Scorn Swarm",
+        "abbreviation": "SSS"
+    },
+    "2594": {
+        "original_name": "Orbit",
+        "abbreviation": "OBT"
+    },
+    "2612": {
+        "original_name": "Bifrost",
+        "abbreviation": "BFR"
+    },
+    "2616": {
+        "original_name": "Typhoon_Class",
+        "abbreviation": "TYP"
+    },
+    "2623": {
+        "original_name": "Mouth Marauder",
+        "abbreviation": "MMM"
+    },
+    "2637": {
+        "original_name": "Chaos",
+        "abbreviation": "CHS"
+    },
+    "2648": {
+        "original_name": "Buzzsaw",
+        "abbreviation": "BZZ"
+    },
+    "2654": {
+        "original_name": "Nostalgia",
+        "abbreviation": "NST"
+    },
+    "2655": {
+        "original_name": "Partisan",
+        "abbreviation": "PRT"
+    },
+    "2670": {
+        "original_name": "FlayedMonasterymission",
+        "abbreviation": "FLY"
+    },
+    "2676": {
+        "original_name": "Cirrus",
+        "abbreviation": "CRR"
+    },
+    "2683": {
+        "original_name": "paddlegunner",
+        "abbreviation": "PDD"
+    },
+    "2684": {
+        "original_name": "Resolute",
+        "abbreviation": "RSL"
+    },
+    "2685": {
+        "original_name": "Patchwork",
+        "abbreviation": "PTC"
+    },
+    "2691": {
+        "original_name": "Panic",
+        "abbreviation": "PNC"
+    },
+    "2695": {
+        "original_name": "Enigma Swarm",
+        "abbreviation": "ESN"
+    },
+    "2712": {
+        "original_name": "Condemned",
+        "abbreviation": "CND"
+    },
+    "2734": {
+        "original_name": "Firework Marauder",
+        "abbreviation": "FMF"
+    },
+    "2754": {
+        "original_name": "Se4sons",
+        "abbreviation": "SSN"
+    },
+    "2765": {
+        "original_name": "Meridian",
+        "abbreviation": "MRD"
+    },
+    "2780": {
+        "original_name": "Skyscraper",
+        "abbreviation": "SKY"
+    },
+    "2794": {
+        "original_name": "Marauder",
+        "abbreviation": "MRD"
+    },
+    "2797": {
+        "original_name": "Flagellator",
+        "abbreviation": "FLG"
+    },
+    "2808": {
+        "original_name": "Jet_Marauder",
+        "abbreviation": "JTM"
+    },
+    "2817": {
+        "original_name": "Maelstrom",
+        "abbreviation": "MLS"
+    },
+    "2827": {
+        "original_name": "Felix_Flieger_B5_Geier",
+        "abbreviation": "FLX"
+    },
+    "2832": {
+        "original_name": "Rend Swarm",
+        "abbreviation": "RSR"
+    },
+    "2837": {
+        "original_name": "HeliMarauder",
+        "abbreviation": "HLM"
+    },
+    "2849": {
+        "original_name": "Hotrauder",
+        "abbreviation": "HTR"
+    },
+    "2854": {
+        "original_name": "Nightmare",
+        "abbreviation": "NGH"
+    },
+    "2881": {
+        "original_name": "Piercer",
+        "abbreviation": "PRC"
+    },
+    "2882": {
+        "original_name": "Submarauder",
+        "abbreviation": "SBM"
+    },
+    "2883": {
+        "original_name": "Teravolt",
+        "abbreviation": "TRV"
+    },
+    "2892": {
+        "original_name": "Phalanx",
+        "abbreviation": "PHL"
+    },
+    "2919": {
+        "original_name": "Discorauder",
+        "abbreviation": "DSC"
+    },
+    "2921": {
+        "original_name": "Gladiator",
+        "abbreviation": "GLD"
+    },
+    "2934": {
+        "original_name": "Weaver",
+        "abbreviation": "WVR"
+    },
+    "2939": {
+        "original_name": "Parallax",
+        "abbreviation": "PRL"
+    },
+    "2955": {
+        "original_name": "Mecharauder",
+        "abbreviation": "MCH"
+    },
+    "2982": {
+        "original_name": "Thunder",
+        "abbreviation": "THN"
+    },
+    "2985": {
+        "original_name": "Basher",
+        "abbreviation": "BSH"
+    },
+    "2987": {
+        "original_name": "The Deliverance",
+        "abbreviation": "TDT"
+    },
+    "2992": {
+        "original_name": "OWFoundry",
+        "abbreviation": "OFN"
+    },
+    "2997": {
+        "original_name": "Steamworks",
+        "abbreviation": "STM"
+    },
+    "3004": {
+        "original_name": "Atlas",
+        "abbreviation": "ALS"
+    },
+    "3005": {
+        "original_name": "Horror",
+        "abbreviation": "HRR"
+    },
+    "3011": {
+        "original_name": "Enmity",
+        "abbreviation": "EMT"
+    },
+    "3014": {
+        "original_name": "Defiant Swarm",
+        "abbreviation": "DSD"
+    },
+    "3019": {
+        "original_name": "Coal_Factory",
+        "abbreviation": "CLF"
+    },
+    "3024": {
+        "original_name": "Revox Munitions Factory",
+        "abbreviation": "RMF"
+    },
+    "3026": {
+        "original_name": "Falkenheim",
+        "abbreviation": "FLK"
+    },
+    "3029": {
+        "original_name": "Alacrity Swarm",
+        "abbreviation": "ASL"
+    },
+    "3031": {
+        "original_name": "Numbness Swarm",
+        "abbreviation": "NSN"
+    },
+    "3046": {
+        "original_name": "BlackWidow",
+        "abbreviation": "BLC"
+    },
+    "3050": {
+        "original_name": "Pride",
+        "abbreviation": "PRD"
+    },
+    "3052": {
+        "original_name": "Yggdrasil",
+        "abbreviation": "YGG"
+    },
+    "3060": {
+        "original_name": "Sabre",
+        "abbreviation": "SBR"
+    },
+    "3072": {
+        "original_name": "Disemboweler",
+        "abbreviation": "DSM"
+    },
+    "3093": {
+        "original_name": "AardvarkRefinery",
+        "abbreviation": "ADV"
+    },
+    "3103": {
+        "original_name": "Revox Munitions Factory-Land",
+        "abbreviation": "RMF"
+    },
+    "3126": {
+        "original_name": "Terravore",
+        "abbreviation": "TRR"
+    },
+    "3128": {
+        "original_name": "JacobsFolly",
+        "abbreviation": "JCB"
+    },
+    "3140": {
+        "original_name": "Glyptos",
+        "abbreviation": "GLY"
+    },
+    "3151": {
+        "original_name": "Vortice",
+        "abbreviation": "VRT"
+    },
+    "3154": {
+        "original_name": "Hydra",
+        "abbreviation": "HYD"
+    },
+    "3157": {
+        "original_name": "Solaris",
+        "abbreviation": "SLR"
+    },
+    "3158": {
+        "original_name": "Carnage",
+        "abbreviation": "CRN"
+    },
+    "3159": {
+        "original_name": "Pioneer",
+        "abbreviation": "PNR"
+    },
+    "3163": {
+        "original_name": "Ember Forge",
+        "abbreviation": "EFM"
+    },
+    "3170": {
+        "original_name": "Ember ForgeLand",
+        "abbreviation": "EFM"
+    },
+    "3180": {
+        "original_name": "Rook",
+        "abbreviation": "ROO"
+    },
+    "3191": {
+        "original_name": "Charon",
+        "abbreviation": "CHR"
+    },
+    "3196": {
+        "original_name": "Cauldron",
+        "abbreviation": "CLD"
+    },
+    "3214": {
+        "original_name": "Vivace",
+        "abbreviation": "VVC"
+    },
+    "3223": {
+        "original_name": "FishingHole",
+        "abbreviation": "FSH"
+    },
+    "3233": {
+        "original_name": "AtlasRetrofit",
+        "abbreviation": "ALS"
+    },
+    "3240": {
+        "original_name": "Ampere",
+        "abbreviation": "APR"
+    },
+    "3295": {
+        "original_name": "Warhorse",
+        "abbreviation": "WRH"
+    },
+    "3298": {
+        "original_name": "Lance",
+        "abbreviation": "LNC"
+    },
+    "3301": {
+        "original_name": "Land Foundry",
+        "abbreviation": "LFL"
+    },
+    "3322": {
+        "original_name": "Claymore",
+        "abbreviation": "CLY"
+    },
+    "3365": {
+        "original_name": "DreadNought",
+        "abbreviation": "DRD"
+    },
+    "3417": {
+        "original_name": "Glass Cannon Marauder",
+        "abbreviation": "GCM"
+    },
+    "3418": {
+        "original_name": "Bruiser",
+        "abbreviation": "BRS"
+    },
+    "3420": {
+        "original_name": "Tsunami",
+        "abbreviation": "TSN"
+    },
+    "3432": {
+        "original_name": "Hermes",
+        "abbreviation": "HRM"
+    },
+    "3437": {
+        "original_name": "Buteo",
+        "abbreviation": "BUT"
+    },
+    "3450": {
+        "original_name": "Snapjaw",
+        "abbreviation": "SNP"
+    },
+    "3455": {
+        "original_name": "PilfererSM",
+        "abbreviation": "PLF"
+    },
+    "3465": {
+        "original_name": "Guillotine",
+        "abbreviation": "GLL"
+    },
+    "3491": {
+        "original_name": "Zephyr",
+        "abbreviation": "ZPH"
+    },
+    "3495": {
+        "original_name": "Conduit",
+        "abbreviation": "CND"
+    },
+    "3528": {
+        "original_name": "Simoon",
+        "abbreviation": "SMN"
+    },
+    "3551": {
+        "original_name": "Walrus",
+        "abbreviation": "WLR"
+    },
+    "3557": {
+        "original_name": "Catapult",
+        "abbreviation": "CTP"
+    },
+    "3560": {
+        "original_name": "Fusion",
+        "abbreviation": "FSN"
+    },
+    "3566": {
+        "original_name": "Coulomb",
+        "abbreviation": "CLM"
+    },
+    "3598": {
+        "original_name": "Umbra",
+        "abbreviation": "UBR"
+    },
+    "3600": {
+        "original_name": "AngryChicken",
+        "abbreviation": "AGR"
+    },
+    "3633": {
+        "original_name": "Brrrrrrtarauder",
+        "abbreviation": "BRR"
+    },
+    "3638": {
+        "original_name": "CoffinNail",
+        "abbreviation": "CFF"
+    },
+    "3645": {
+        "original_name": "Valkyrie",
+        "abbreviation": "VLK"
+    },
+    "3658": {
+        "original_name": "Dynamo",
+        "abbreviation": "DYN"
+    },
+    "3670": {
+        "original_name": "Pilferer",
+        "abbreviation": "PLF"
+    },
+    "3689": {
+        "original_name": "Wolin",
+        "abbreviation": "WLN"
+    },
+    "3694": {
+        "original_name": "Stalwart",
+        "abbreviation": "STL"
+    },
+    "3709": {
+        "original_name": "Iron_Cove_Ship_Test_Facility",
+        "abbreviation": "INC"
+    },
+    "3711": {
+        "original_name": "MarauderHomeRetrofit",
+        "abbreviation": "MRD"
+    },
+    "3719": {
+        "original_name": "Shock Swarm",
+        "abbreviation": "SSS"
+    },
+    "3723": {
+        "original_name": "Singularauder",
+        "abbreviation": "SNG"
+    },
+    "3738": {
+        "original_name": "MarauderCargoRetrofit",
+        "abbreviation": "MRD"
+    },
+    "3782": {
+        "original_name": "Grendel",
+        "abbreviation": "GRN"
+    },
+    "3788": {
+        "original_name": "Coffin Nail",
+        "abbreviation": "CNC"
+    },
+    "3801": {
+        "original_name": "Warbird",
+        "abbreviation": "WRB"
+    },
+    "3808": {
+        "original_name": "Lunette",
+        "abbreviation": "LNT"
+    },
+    "3810": {
+        "original_name": "Behemoth",
+        "abbreviation": "BHM"
+    },
+    "3853": {
+        "original_name": "Satisfaction Swarm",
+        "abbreviation": "SSS"
+    },
+    "3859": {
+        "original_name": "AscensionPrototype",
+        "abbreviation": "ACN"
+    },
+    "3902": {
+        "original_name": "Bombardier",
+        "abbreviation": "BMB"
+    },
+    "3929": {
+        "original_name": "Paddlegun",
+        "abbreviation": "PDD"
+    },
+    "3934": {
+        "original_name": "Nexus",
+        "abbreviation": "NXS"
+    },
+    "3942": {
+        "original_name": "Lightning",
+        "abbreviation": "LGH"
+    },
+    "3978": {
+        "original_name": "IronClad",
+        "abbreviation": "INC"
+    },
+    "3989": {
+        "original_name": "Fairday",
+        "abbreviation": "FRD"
+    },
+    "3995": {
+        "original_name": "Orca",
+        "abbreviation": "ORC"
+    },
+    "4023": {
+        "original_name": "Forward_Operating_Base",
+        "abbreviation": "FRW"
+    },
+    "4049": {
+        "original_name": "Caspian",
+        "abbreviation": "CSP"
+    },
+    "4065": {
+        "original_name": "Zealot",
+        "abbreviation": "ZLT"
+    },
+    "4066": {
+        "original_name": "TheHive",
+        "abbreviation": "THH"
+    },
+    "4069": {
+        "original_name": "IronCross",
+        "abbreviation": "INC"
+    },
+    "4076": {
+        "original_name": "Glaive",
+        "abbreviation": "GLV"
+    },
+    "4106": {
+        "original_name": "Argonaut",
+        "abbreviation": "AGN"
+    },
+    "4134": {
+        "original_name": "Cyclone",
+        "abbreviation": "CYC"
+    },
+    "4156": {
+        "original_name": "Churl",
+        "abbreviation": "CHR"
+    },
+    "4171": {
+        "original_name": "Land_Marauder",
+        "abbreviation": "LND"
+    },
+    "4203": {
+        "original_name": "Dorado",
+        "abbreviation": "DRD"
+    },
+    "4218": {
+        "original_name": "Fission",
+        "abbreviation": "FSS"
+    },
+    "4222": {
+        "original_name": "Ecstasy",
+        "abbreviation": "EST"
+    },
+    "4240": {
+        "original_name": "Perdition",
+        "abbreviation": "PRD"
+    },
+    "4252": {
+        "original_name": "Mantis",
+        "abbreviation": "MNT"
+    },
+    "4284": {
+        "original_name": "Apollo",
+        "abbreviation": "ALL"
+    },
+    "4290": {
+        "original_name": "Riverhome",
+        "abbreviation": "RVH"
+    },
+    "4294": {
+        "original_name": "Cerberus",
+        "abbreviation": "CRB"
+    },
+    "4295": {
+        "original_name": "Marabunta",
+        "abbreviation": "MRB"
+    },
+    "4300": {
+        "original_name": "Veles",
+        "abbreviation": "VLS"
+    },
+    "4356": {
+        "original_name": "Razormaul",
+        "abbreviation": "RZR"
+    },
+    "4371": {
+        "original_name": "Aeonic",
+        "abbreviation": "AEO"
+    },
+    "4383": {
+        "original_name": "Dawncutter",
+        "abbreviation": "DWN"
+    },
+    "4396": {
+        "original_name": "Anguish",
+        "abbreviation": "AGS"
+    },
+    "4404": {
+        "original_name": "Nightingale",
+        "abbreviation": "NGH"
+    },
+    "4421": {
+        "original_name": "Wintersday",
+        "abbreviation": "WNT"
+    },
+    "4428": {
+        "original_name": "Anode",
+        "abbreviation": "ANO"
+    },
+    "4431": {
+        "original_name": "Redoubt",
+        "abbreviation": "RDB"
+    },
+    "4439": {
+        "original_name": "Thunderchild",
+        "abbreviation": "THN"
+    },
+    "4441": {
+        "original_name": "Spectre",
+        "abbreviation": "SPC"
+    },
+    "4470": {
+        "original_name": "Achievement",
+        "abbreviation": "AHV"
+    },
+    "4476": {
+        "original_name": "Defender Turret",
+        "abbreviation": "DTD"
+    },
+    "4481": {
+        "original_name": "Relentless",
+        "abbreviation": "RLN"
+    },
+    "4488": {
+        "original_name": "Pigs n Slop Manure Factory",
+        "abbreviation": "PNS"
+    },
+    "4493": {
+        "original_name": "Scourge",
+        "abbreviation": "SCR"
+    },
+    "4498": {
+        "original_name": "Polarity",
+        "abbreviation": "PLR"
+    },
+    "4505": {
+        "original_name": "Tesla",
+        "abbreviation": "TSL"
+    },
+    "4508": {
+        "original_name": "Incinerator",
+        "abbreviation": "ICN"
+    },
+    "4521": {
+        "original_name": "Jacobs Treehouse",
+        "abbreviation": "JTJ"
+    },
+    "4530": {
+        "original_name": "Ascension_Research_Center",
+        "abbreviation": "ACN"
+    },
+    "4531": {
+        "original_name": "Warrior",
+        "abbreviation": "WRR"
+    },
+    "4540": {
+        "original_name": "CommandCenter",
+        "abbreviation": "CMM"
+    },
+    "4559": {
+        "original_name": "Pandemonium",
+        "abbreviation": "PND"
+    },
+    "4569": {
+        "original_name": "Assertiveness",
+        "abbreviation": "ASR"
+    },
+    "4625": {
+        "original_name": "Comet",
+        "abbreviation": "CMT"
+    },
+    "4631": {
+        "original_name": "Hourglass",
+        "abbreviation": "HRG"
+    },
+    "4639": {
+        "original_name": "CrossBolt",
+        "abbreviation": "CRS"
+    },
+    "4647": {
+        "original_name": "Glaukos",
+        "abbreviation": "GLK"
+    },
+    "4649": {
+        "original_name": "Motte",
+        "abbreviation": "MTT"
+    },
+    "4660": {
+        "original_name": "Thunderbird",
+        "abbreviation": "THN"
+    },
+    "4690": {
+        "original_name": "Warden",
+        "abbreviation": "WRD"
+    },
+    "4698": {
+        "original_name": "Sacrilego",
+        "abbreviation": "SCR"
+    },
+    "4724": {
+        "original_name": "Megawatt",
+        "abbreviation": "MGW"
+    },
+    "4733": {
+        "original_name": "Flounder",
+        "abbreviation": "FLN"
+    },
+    "4735": {
+        "original_name": "Stockade",
+        "abbreviation": "STC"
+    },
+    "4761": {
+        "original_name": "SeaRaptor",
+        "abbreviation": "SRP"
+    },
+    "4768": {
+        "original_name": "FlayedMonastery",
+        "abbreviation": "FLY"
+    },
+    "4782": {
+        "original_name": "Hydrovolt",
+        "abbreviation": "HYD"
+    },
+    "4796": {
+        "original_name": "Quasar",
+        "abbreviation": "QSR"
+    },
+    "4797": {
+        "original_name": "Tremor",
+        "abbreviation": "TRM"
+    },
+    "4823": {
+        "original_name": "Steelwarden",
+        "abbreviation": "STL"
+    },
+    "4841": {
+        "original_name": "Liberatorcannon",
+        "abbreviation": "LBR"
+    },
+    "4873": {
+        "original_name": "Oxen",
+        "abbreviation": "OXE"
+    },
+    "4895": {
+        "original_name": "Iron Juggernaut",
+        "abbreviation": "IJR"
+    },
+    "4907": {
+        "original_name": "Iron Curtain",
+        "abbreviation": "ICR"
+    },
+    "4920": {
+        "original_name": "Leatherback",
+        "abbreviation": "LTH"
+    },
+    "4934": {
+        "original_name": "Andromeda",
+        "abbreviation": "ADR"
+    },
+    "5003": {
+        "original_name": "TestRig",
+        "abbreviation": "TST"
+    },
+    "5018": {
+        "original_name": "Kitakami",
+        "abbreviation": "KTK"
+    },
+    "5022": {
+        "original_name": "Laser_Turret",
+        "abbreviation": "LSR"
+    },
+    "5051": {
+        "original_name": "FishN A Barrel",
+        "abbreviation": "FAB"
+    },
+    "5076": {
+        "original_name": "Marlin",
+        "abbreviation": "MRL"
+    },
+    "5106": {
+        "original_name": "Kalmar",
+        "abbreviation": "KLM"
+    },
+    "5124": {
+        "original_name": "Heyla Swarm",
+        "abbreviation": "HSH"
+    },
+    "5141": {
+        "original_name": "Outlaw",
+        "abbreviation": "OLW"
+    },
+    "5144": {
+        "original_name": "Icarus",
+        "abbreviation": "IRS"
+    },
+    "5146": {
+        "original_name": "Ember Forge Land",
+        "abbreviation": "EFL"
+    },
+    "5210": {
+        "original_name": "Iron",
+        "abbreviation": "IRO"
+    },
+    "5272": {
+        "original_name": "Rhino",
+        "abbreviation": "RHN"
+    },
+    "5276": {
+        "original_name": "Cosmos",
+        "abbreviation": "CSM"
+    },
+    "5286": {
+        "original_name": "Magnetar",
+        "abbreviation": "MGN"
+    },
+    "5359": {
+        "original_name": "Marauder Ravager",
+        "abbreviation": "MRM"
+    },
+    "5364": {
+        "original_name": "Beholder",
+        "abbreviation": "BHL"
+    },
+    "5375": {
+        "original_name": "Exter",
+        "abbreviation": "ETR"
+    },
+    "5379": {
+        "original_name": "Alarmed",
+        "abbreviation": "ARM"
+    },
+    "5413": {
+        "original_name": "Aerotyrant",
+        "abbreviation": "ATY"
+    },
+    "5416": {
+        "original_name": "Serenity",
+        "abbreviation": "SRN"
+    },
+    "5427": {
+        "original_name": "SinnersPit",
+        "abbreviation": "SNN"
+    },
+    "5433": {
+        "original_name": "Astraeus",
+        "abbreviation": "ATR"
+    },
+    "5443": {
+        "original_name": "Eclipse",
+        "abbreviation": "ELP"
+    },
+    "5453": {
+        "original_name": "Prowler_Elite",
+        "abbreviation": "PRW"
+    },
+    "5471": {
+        "original_name": "Tuareg",
+        "abbreviation": "TRG"
+    },
+    "5477": {
+        "original_name": "Impulse",
+        "abbreviation": "IPL"
+    },
+    "5485": {
+        "original_name": "Nemesis",
+        "abbreviation": "NMS"
+    },
+    "5489": {
+        "original_name": "Prowler",
+        "abbreviation": "PRW"
+    },
+    "5502": {
+        "original_name": "Goliath",
+        "abbreviation": "GLT"
+    },
+    "5504": {
+        "original_name": "Iron Maiden",
+        "abbreviation": "IMR"
+    },
+    "5516": {
+        "original_name": "Tranquility",
+        "abbreviation": "TRN"
+    },
+    "5540": {
+        "original_name": "Agitation",
+        "abbreviation": "ATT"
+    },
+    "5554": {
+        "original_name": "Atreides",
+        "abbreviation": "ARD"
+    },
+    "5567": {
+        "original_name": "Suzaku",
+        "abbreviation": "SZK"
+    },
+    "5572": {
+        "original_name": "Penumbra",
+        "abbreviation": "PNM"
+    },
+    "5574": {
+        "original_name": "Tectonic",
+        "abbreviation": "TCT"
+    },
+    "5576": {
+        "original_name": "Morningstar",
+        "abbreviation": "MRN"
+    },
+    "5642": {
+        "original_name": "Foundry",
+        "abbreviation": "FND"
+    },
+    "5652": {
+        "original_name": "Magellan",
+        "abbreviation": "MGL"
+    },
+    "5687": {
+        "original_name": "Jealousy",
+        "abbreviation": "JLS"
+    },
+    "5730": {
+        "original_name": "OmegaNightmare",
+        "abbreviation": "OGN"
+    },
+    "5749": {
+        "original_name": "Latobius",
+        "abbreviation": "LTB"
+    },
+    "5755": {
+        "original_name": "Chrysolite",
+        "abbreviation": "CHR"
+    },
+    "5840": {
+        "original_name": "Type19",
+        "abbreviation": "TYP"
+    },
+    "5895": {
+        "original_name": "Lux Aeterna",
+        "abbreviation": "LAL"
+    },
+    "5916": {
+        "original_name": "Omnitorus",
+        "abbreviation": "ONT"
+    },
+    "5956": {
+        "original_name": "Palstave",
+        "abbreviation": "PLS"
+    },
+    "5970": {
+        "original_name": "Moray",
+        "abbreviation": "MRY"
+    },
+    "6000": {
+        "original_name": "Oculus",
+        "abbreviation": "OLS"
+    },
+    "6003": {
+        "original_name": "Novara",
+        "abbreviation": "NVR"
+    },
+    "6009": {
+        "original_name": "Gryphon",
+        "abbreviation": "GRY"
+    },
+    "6023": {
+        "original_name": "Novgorod",
+        "abbreviation": "NVG"
+    },
+    "6028": {
+        "original_name": "TheFlayedSoul",
+        "abbreviation": "THF"
+    },
+    "6074": {
+        "original_name": "Kraken",
+        "abbreviation": "KRK"
+    },
+    "6085": {
+        "original_name": "Quadrupole",
+        "abbreviation": "QDR"
+    },
+    "6097": {
+        "original_name": "Desolation",
+        "abbreviation": "DSL"
+    },
+    "6107": {
+        "original_name": "D-O-M-I-N-U-S",
+        "abbreviation": "DMN"
+    },
+    "6137": {
+        "original_name": "Bayonet",
+        "abbreviation": "BYN"
+    },
+    "6177": {
+        "original_name": "Palladium",
+        "abbreviation": "PLL"
+    },
+    "6203": {
+        "original_name": "Airship_Gantry_Atlas",
+        "abbreviation": "ASH"
+    },
+    "6214": {
+        "original_name": "Mistraider",
+        "abbreviation": "MST"
+    },
+    "6217": {
+        "original_name": "Smog",
+        "abbreviation": "SMG"
+    },
+    "6240": {
+        "original_name": "Battlerauder",
+        "abbreviation": "BTT"
+    },
+    "6245": {
+        "original_name": "Mandrel",
+        "abbreviation": "MND"
+    },
+    "6272": {
+        "original_name": "Ransack",
+        "abbreviation": "RNS"
+    },
+    "6298": {
+        "original_name": "Gannus",
+        "abbreviation": "GNN"
+    },
+    "6342": {
+        "original_name": "Iron Gate",
+        "abbreviation": "IGR"
+    },
+    "6347": {
+        "original_name": "Genbu",
+        "abbreviation": "GNB"
+    },
+    "6358": {
+        "original_name": "Aardsterk",
+        "abbreviation": "ADS"
+    },
+    "6396": {
+        "original_name": "Gog",
+        "abbreviation": "GOG"
+    },
+    "6401": {
+        "original_name": "Damacy",
+        "abbreviation": "DMC"
+    },
+    "6410": {
+        "original_name": "DarkStar",
+        "abbreviation": "DRK"
+    },
+    "6428": {
+        "original_name": "Spectrum",
+        "abbreviation": "SPC"
+    },
+    "6437": {
+        "original_name": "Amusement",
+        "abbreviation": "ASM"
+    },
+    "6518": {
+        "original_name": "Inquisition",
+        "abbreviation": "IQS"
+    },
+    "6575": {
+        "original_name": "Treadstone",
+        "abbreviation": "TRD"
+    },
+    "6600": {
+        "original_name": "Braveheart",
+        "abbreviation": "BRV"
+    },
+    "6619": {
+        "original_name": "TheManor",
+        "abbreviation": "THM"
+    },
+    "6624": {
+        "original_name": "Furnace",
+        "abbreviation": "FRN"
+    },
+    "6631": {
+        "original_name": "Deimos",
+        "abbreviation": "DMS"
+    },
+    "6659": {
+        "original_name": "Agonyemp",
+        "abbreviation": "ANY"
+    },
+    "6686": {
+        "original_name": "Fulgurite",
+        "abbreviation": "FLG"
+    },
+    "6703": {
+        "original_name": "Tachyon",
+        "abbreviation": "TCH"
+    },
+    "6745": {
+        "original_name": "Harbinger",
+        "abbreviation": "HRB"
+    },
+    "6799": {
+        "original_name": "Devourer",
+        "abbreviation": "DVR"
+    },
+    "6804": {
+        "original_name": "Bayleaf",
+        "abbreviation": "BYL"
+    },
+    "6844": {
+        "original_name": "The Last Rite",
+        "abbreviation": "TLR"
+    },
+    "6870": {
+        "original_name": "Corruption",
+        "abbreviation": "CRR"
+    },
+    "6871": {
+        "original_name": "Casimir",
+        "abbreviation": "CSM"
+    },
+    "6912": {
+        "original_name": "Monsoon",
+        "abbreviation": "MNS"
+    },
+    "6925": {
+        "original_name": "Carcharodon",
+        "abbreviation": "CRC"
+    },
+    "6934": {
+        "original_name": "Obsession",
+        "abbreviation": "OSS"
+    },
+    "6955": {
+        "original_name": "Longinus",
+        "abbreviation": "LNG"
+    },
+    "6982": {
+        "original_name": "Contentment",
+        "abbreviation": "CNT"
+    },
+    "7056": {
+        "original_name": "Hunter",
+        "abbreviation": "HNT"
+    },
+    "7228": {
+        "original_name": "Omen",
+        "abbreviation": "OME"
+    },
+    "7302": {
+        "original_name": "Palisade",
+        "abbreviation": "PLS"
+    },
+    "7305": {
+        "original_name": "Brigand",
+        "abbreviation": "BRG"
+    },
+    "7319": {
+        "original_name": "Perseus",
+        "abbreviation": "PRS"
+    },
+    "7328": {
+        "original_name": "Mobula",
+        "abbreviation": "MBL"
+    },
+    "7378": {
+        "original_name": "Machination",
+        "abbreviation": "MCH"
+    },
+    "7382": {
+        "original_name": "Loggerhead",
+        "abbreviation": "LGG"
+    },
+    "7421": {
+        "original_name": "Victoria",
+        "abbreviation": "VCT"
+    },
+    "7422": {
+        "original_name": "Piraiba",
+        "abbreviation": "PRB"
+    },
+    "7430": {
+        "original_name": "Clydesdale",
+        "abbreviation": "CLY"
+    },
+    "7457": {
+        "original_name": "Ouroborus Land Munitions Factory",
+        "abbreviation": "OLM"
+    },
+    "7461": {
+        "original_name": "Annularis",
+        "abbreviation": "ANL"
+    },
+    "7525": {
+        "original_name": "OCPLAC",
+        "abbreviation": "OPL"
+    },
+    "7550": {
+        "original_name": "Corona",
+        "abbreviation": "CRN"
+    },
+    "7566": {
+        "original_name": "Joy",
+        "abbreviation": "JOY"
+    },
+    "7685": {
+        "original_name": "Hunchback",
+        "abbreviation": "HNC"
+    },
+    "7696": {
+        "original_name": "Straussland",
+        "abbreviation": "STR"
+    },
+    "7719": {
+        "original_name": "Ennui",
+        "abbreviation": "ENN"
+    },
+    "7774": {
+        "original_name": "Judgement",
+        "abbreviation": "JDG"
+    },
+    "7845": {
+        "original_name": "Albacore",
+        "abbreviation": "ABC"
+    },
+    "7911": {
+        "original_name": "Galaxy",
+        "abbreviation": "GLX"
+    },
+    "7964": {
+        "original_name": "Abactor",
+        "abbreviation": "ACT"
+    },
+    "8156": {
+        "original_name": "Capitol",
+        "abbreviation": "CPT"
+    },
+    "8169": {
+        "original_name": "Norge",
+        "abbreviation": "NRG"
+    },
+    "8182": {
+        "original_name": "Greenfield",
+        "abbreviation": "GRN"
+    },
+    "8274": {
+        "original_name": "Audacious",
+        "abbreviation": "ACS"
+    },
+    "8282": {
+        "original_name": "PlundererSM",
+        "abbreviation": "PLN"
+    },
+    "8304": {
+        "original_name": "Iron Wolf",
+        "abbreviation": "IWR"
+    },
+    "8380": {
+        "original_name": "Slasher",
+        "abbreviation": "SLS"
+    },
+    "8401": {
+        "original_name": "DuskBlade",
+        "abbreviation": "DSK"
+    },
+    "8418": {
+        "original_name": "Conger",
+        "abbreviation": "CNG"
+    },
+    "8428": {
+        "original_name": "Parapet",
+        "abbreviation": "PRP"
+    },
+    "8434": {
+        "original_name": "Nebula",
+        "abbreviation": "NBL"
+    },
+    "8439": {
+        "original_name": "PiraibaSM",
+        "abbreviation": "PRB"
+    },
+    "8440": {
+        "original_name": "Asphodel",
+        "abbreviation": "APH"
+    },
+    "8466": {
+        "original_name": "Alchemists Lair",
+        "abbreviation": "ALL"
+    },
+    "8471": {
+        "original_name": "Devastation",
+        "abbreviation": "DVS"
+    },
+    "8503": {
+        "original_name": "Valiant",
+        "abbreviation": "VLN"
+    },
+    "8522": {
+        "original_name": "Limbo",
+        "abbreviation": "LMB"
+    },
+    "8523": {
+        "original_name": "JacobsDelight",
+        "abbreviation": "JCB"
+    },
+    "8564": {
+        "original_name": "Javelin",
+        "abbreviation": "JVL"
+    },
+    "8585": {
+        "original_name": "Panjandrum",
+        "abbreviation": "PNJ"
+    },
+    "8620": {
+        "original_name": "Barracuda",
+        "abbreviation": "BRR"
+    },
+    "8797": {
+        "original_name": "Halberd",
+        "abbreviation": "HLB"
+    },
+    "8823": {
+        "original_name": "Ouroborus Munitions Factory",
+        "abbreviation": "OMF"
+    },
+    "8825": {
+        "original_name": "Paladin",
+        "abbreviation": "PLD"
+    },
+    "8853": {
+        "original_name": "Constellation",
+        "abbreviation": "CNS"
+    },
+    "8971": {
+        "original_name": "Euphoria",
+        "abbreviation": "EHR"
+    },
+    "8978": {
+        "original_name": "Oracle",
+        "abbreviation": "OCL"
+    },
+    "8982": {
+        "original_name": "Airship_Gantry_Moray",
+        "abbreviation": "ASH"
+    },
+    "9011": {
+        "original_name": "Rectifier",
+        "abbreviation": "RCT"
+    },
+    "9017": {
+        "original_name": "Reefshark",
+        "abbreviation": "RFS"
+    },
+    "9027": {
+        "original_name": "Harbinger",
+        "abbreviation": "HRB"
+    },
+    "9068": {
+        "original_name": "Hobgoblin",
+        "abbreviation": "HBG"
+    },
+    "9078": {
+        "original_name": "Harlech",
+        "abbreviation": "HRL"
+    },
+    "9100": {
+        "original_name": "Goshawk",
+        "abbreviation": "GSH"
+    },
+    "9104": {
+        "original_name": "Mania",
+        "abbreviation": "MAN"
+    },
+    "9131": {
+        "original_name": "Sagittarion",
+        "abbreviation": "SGT"
+    },
+    "9132": {
+        "original_name": "Bishop",
+        "abbreviation": "BSH"
+    },
+    "9214": {
+        "original_name": "Sentinel",
+        "abbreviation": "SNT"
+    },
+    "9224": {
+        "original_name": "Cathode",
+        "abbreviation": "CTH"
+    },
+    "9235": {
+        "original_name": "Mace",
+        "abbreviation": "MAC"
+    },
+    "9243": {
+        "original_name": "Venator",
+        "abbreviation": "VNT"
+    },
+    "9247": {
+        "original_name": "Nimbus",
+        "abbreviation": "NMB"
+    },
+    "9341": {
+        "original_name": "ThresherShark",
+        "abbreviation": "THR"
+    },
+    "9347": {
+        "original_name": "Dockyard",
+        "abbreviation": "DCK"
+    },
+    "9359": {
+        "original_name": "Bardiche",
+        "abbreviation": "BRD"
+    },
+    "9364": {
+        "original_name": "Sirius",
+        "abbreviation": "SRS"
+    },
+    "9375": {
+        "original_name": "Timid",
+        "abbreviation": "TMD"
+    },
+    "9407": {
+        "original_name": "Optimism",
+        "abbreviation": "OTM"
+    },
+    "9412": {
+        "original_name": "Plunderer",
+        "abbreviation": "PLN"
+    },
+    "9466": {
+        "original_name": "Brandistock",
+        "abbreviation": "BRN"
+    },
+    "9482": {
+        "original_name": "Tigershark",
+        "abbreviation": "TGR"
+    },
+    "9558": {
+        "original_name": "Thrasher",
+        "abbreviation": "THR"
+    },
+    "9622": {
+        "original_name": "Endeavour",
+        "abbreviation": "EDV"
+    },
+    "9646": {
+        "original_name": "Eridanus",
+        "abbreviation": "EDN"
+    },
+    "9672": {
+        "original_name": "Iron Cordon",
+        "abbreviation": "ICR"
+    },
+    "9754": {
+        "original_name": "Anarchist",
+        "abbreviation": "ARC"
+    },
+    "9779": {
+        "original_name": "Chancellor",
+        "abbreviation": "CHN"
+    },
+    "9837": {
+        "original_name": "IronCordon",
+        "abbreviation": "INC"
+    },
+    "9952": {
+        "original_name": "Trebuchet",
+        "abbreviation": "TRB"
+    },
+    "9992": {
+        "original_name": "BlackCurrent",
+        "abbreviation": "BLC"
+    },
+    "10050": {
+        "original_name": "Trondheim",
+        "abbreviation": "TRN"
+    },
+    "10094": {
+        "original_name": "Submarine_Pen",
+        "abbreviation": "SBM"
+    },
+    "10099": {
+        "original_name": "Crivetz",
+        "abbreviation": "CRV"
+    },
+    "10165": {
+        "original_name": "Scorpion",
+        "abbreviation": "SCR"
+    },
+    "10177": {
+        "original_name": "Neptune",
+        "abbreviation": "NPT"
+    },
+    "10319": {
+        "original_name": "Poseidon",
+        "abbreviation": "PSD"
+    },
+    "10400": {
+        "original_name": "Tortuga",
+        "abbreviation": "TRT"
+    },
+    "10470": {
+        "original_name": "Adrastos",
+        "abbreviation": "ARS"
+    },
+    "10583": {
+        "original_name": "Angstrom",
+        "abbreviation": "AGS"
+    },
+    "10587": {
+        "original_name": "Aardwolf",
+        "abbreviation": "ADW"
+    },
+    "10650": {
+        "original_name": "Tortuga Prototype",
+        "abbreviation": "TPT"
+    },
+    "10681": {
+        "original_name": "Hysteria",
+        "abbreviation": "HYS"
+    },
+    "10684": {
+        "original_name": "Disgust",
+        "abbreviation": "DSG"
+    },
+    "10850": {
+        "original_name": "Hypatos",
+        "abbreviation": "HYP"
+    },
+    "10894": {
+        "original_name": "Kobold",
+        "abbreviation": "KBL"
+    },
+    "10971": {
+        "original_name": "Odyssey",
+        "abbreviation": "OYS"
+    },
+    "10974": {
+        "original_name": "Alcazar",
+        "abbreviation": "ACZ"
+    },
+    "11006": {
+        "original_name": "Paranoia",
+        "abbreviation": "PRN"
+    },
+    "11015": {
+        "original_name": "Iron_Cordon",
+        "abbreviation": "INC"
+    },
+    "11021": {
+        "original_name": "Huskarl",
+        "abbreviation": "HSK"
+    },
+    "11112": {
+        "original_name": "Archangel",
+        "abbreviation": "ACH"
+    },
+    "11235": {
+        "original_name": "Excruciator",
+        "abbreviation": "ECR"
+    },
+    "11372": {
+        "original_name": "Stralsund",
+        "abbreviation": "STR"
+    },
+    "11478": {
+        "original_name": "Annihilation",
+        "abbreviation": "ANH"
+    },
+    "11521": {
+        "original_name": "Bucanneer",
+        "abbreviation": "BCN"
+    },
+    "11766": {
+        "original_name": "Candela",
+        "abbreviation": "CND"
+    },
+    "11839": {
+        "original_name": "Aquila",
+        "abbreviation": "AQU"
+    },
+    "12044": {
+        "original_name": "AirField",
+        "abbreviation": "AFL"
+    },
+    "12233": {
+        "original_name": "Gauss",
+        "abbreviation": "GSS"
+    },
+    "12323": {
+        "original_name": "Guernsey",
+        "abbreviation": "GRN"
+    },
+    "12373": {
+        "original_name": "Fear",
+        "abbreviation": "FEA"
+    },
+    "12411": {
+        "original_name": "Gyges",
+        "abbreviation": "GYG"
+    },
+    "12578": {
+        "original_name": "ScarletDawn",
+        "abbreviation": "SCR"
+    },
+    "12666": {
+        "original_name": "Baskingshark",
+        "abbreviation": "BSK"
+    },
+    "12829": {
+        "original_name": "Dire Harvest",
+        "abbreviation": "DHD"
+    },
+    "12845": {
+        "original_name": "Lazarus",
+        "abbreviation": "LZR"
+    },
+    "12934": {
+        "original_name": "Exajoule",
+        "abbreviation": "EJL"
+    },
+    "13151": {
+        "original_name": "Jormungand",
+        "abbreviation": "JRM"
+    },
+    "13245": {
+        "original_name": "Cassiopiea",
+        "abbreviation": "CSS"
+    },
+    "13260": {
+        "original_name": "Angelic",
+        "abbreviation": "AGL"
+    },
+    "13267": {
+        "original_name": "Gorgon",
+        "abbreviation": "GRG"
+    },
+    "13387": {
+        "original_name": "Constitution",
+        "abbreviation": "CNS"
+    },
+    "13402": {
+        "original_name": "Onslaught",
+        "abbreviation": "OSL"
+    },
+    "13434": {
+        "original_name": "Warlord",
+        "abbreviation": "WRL"
+    },
+    "13496": {
+        "original_name": "Exadyne",
+        "abbreviation": "EDY"
+    },
+    "13541": {
+        "original_name": "Extinction",
+        "abbreviation": "ETN"
+    },
+    "13623": {
+        "original_name": "PeaceKeeper",
+        "abbreviation": "PCK"
+    },
+    "13698": {
+        "original_name": "Treachery",
+        "abbreviation": "TRC"
+    },
+    "13736": {
+        "original_name": "WhaleShark",
+        "abbreviation": "WHL"
+    },
+    "13976": {
+        "original_name": "Exterminator",
+        "abbreviation": "ETR"
+    },
+    "13992": {
+        "original_name": "Ascension",
+        "abbreviation": "ACN"
+    },
+    "14097": {
+        "original_name": "Trident",
+        "abbreviation": "TRD"
+    },
+    "14254": {
+        "original_name": "Rhea",
+        "abbreviation": "RHE"
+    },
+    "14382": {
+        "original_name": "Bullshark",
+        "abbreviation": "BLL"
+    },
+    "15071": {
+        "original_name": "Contingency",
+        "abbreviation": "CNT"
+    },
+    "15088": {
+        "original_name": "Thunderclap",
+        "abbreviation": "THN"
+    },
+    "15158": {
+        "original_name": "Purifier",
+        "abbreviation": "PRF"
+    },
+    "15260": {
+        "original_name": "Kingstead",
+        "abbreviation": "KNG"
+    },
+    "15418": {
+        "original_name": "Wonder",
+        "abbreviation": "WND"
+    },
+    "15420": {
+        "original_name": "Tarpon",
+        "abbreviation": "TRP"
+    },
+    "15527": {
+        "original_name": "Desecrator",
+        "abbreviation": "DSC"
+    },
+    "15816": {
+        "original_name": "DavyJonesOutpost",
+        "abbreviation": "DVY"
+    },
+    "16193": {
+        "original_name": "Perforator",
+        "abbreviation": "PRF"
+    },
+    "16287": {
+        "original_name": "Hypernova",
+        "abbreviation": "HYP"
+    },
+    "16485": {
+        "original_name": "Excalibur",
+        "abbreviation": "ECL"
+    },
+    "16715": {
+        "original_name": "Briar",
+        "abbreviation": "BRR"
+    },
+    "16975": {
+        "original_name": "Sovereign",
+        "abbreviation": "SVR"
+    },
+    "16986": {
+        "original_name": "Damascus",
+        "abbreviation": "DMS"
+    },
+    "16995": {
+        "original_name": "Laniakea",
+        "abbreviation": "LNK"
+    },
+    "17197": {
+        "original_name": "Event Horizon",
+        "abbreviation": "EHV"
+    },
+    "17233": {
+        "original_name": "Bulwark",
+        "abbreviation": "BLW"
+    },
+    "18003": {
+        "original_name": "Anvil",
+        "abbreviation": "AVL"
+    },
+    "18464": {
+        "original_name": "Retaliator",
+        "abbreviation": "RTL"
+    },
+    "18871": {
+        "original_name": "Impedance",
+        "abbreviation": "IPD"
+    },
+    "19200": {
+        "original_name": "Crossbones",
+        "abbreviation": "CRS"
+    },
+    "19254": {
+        "original_name": "OnyxThrone",
+        "abbreviation": "OYX"
+    },
+    "19375": {
+        "original_name": "Tyr",
+        "abbreviation": "TYR"
+    },
+    "19795": {
+        "original_name": "Covenant",
+        "abbreviation": "CVN"
+    },
+    "20380": {
+        "original_name": "Eyrie",
+        "abbreviation": "EYR"
+    },
+    "20547": {
+        "original_name": "Singularity",
+        "abbreviation": "SNG"
+    },
+    "20581": {
+        "original_name": "Eris",
+        "abbreviation": "ERI"
+    },
+    "20668": {
+        "original_name": "Leviathan",
+        "abbreviation": "LVT"
+    },
+    "20979": {
+        "original_name": "QuartzStoneFortress",
+        "abbreviation": "QRT"
+    },
+    "21560": {
+        "original_name": "Greatwhite",
+        "abbreviation": "GRT"
+    },
+    "22020": {
+        "original_name": "Jacobs_Palace",
+        "abbreviation": "JCB"
+    },
+    "22104": {
+        "original_name": "Thanatos",
+        "abbreviation": "THN"
+    },
+    "22228": {
+        "original_name": "Empyrean",
+        "abbreviation": "EPY"
+    },
+    "22304": {
+        "original_name": "Gravitas",
+        "abbreviation": "GRV"
+    },
+    "22396": {
+        "original_name": "Pyre",
+        "abbreviation": "PYR"
+    },
+    "22548": {
+        "original_name": "Triumphant",
+        "abbreviation": "TRM"
+    },
+    "23691": {
+        "original_name": "Redeemer",
+        "abbreviation": "RDM"
+    },
+    "24197": {
+        "original_name": "Iceberglogisticshub",
+        "abbreviation": "IBR"
+    },
+    "25795": {
+        "original_name": "Stronghold",
+        "abbreviation": "STR"
+    },
+    "27621": {
+        "original_name": "RavensNest",
+        "abbreviation": "RVN"
+    },
+    "28385": {
+        "original_name": "Crucible",
+        "abbreviation": "CRC"
+    },
+    "29548": {
+        "original_name": "Megalodon",
+        "abbreviation": "MEG"
+    }
+}
